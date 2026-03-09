@@ -1,0 +1,58 @@
+
+
+spriteTypes = {
+
+	# hex background
+	spriteType = {
+		name = "GFX_tradition_hex_bg_tradition_terraform"
+		textureFile = "gfx/interface/traditions/tradition_hex_bg_green.dds"
+	}
+
+	# tile background 
+	spriteType = {
+		name = "GFX_tradition_category_bg_tradition_terraform"
+		textureFile = "gfx/interface/tiles/tradition_category_tile_terraform.dds"
+	}
+
+	# enable/disable overlay?
+	corneredTileSpriteType = {
+		name = "GFX_tradition_category_tile_tradition_terraform"
+		textureFile = "gfx/interface/tiles/tradition_category_tile_terraform.dds"
+		borderSize = { x=140 y=140 }
+		effectFile = "gfx/FX/buttonstate_onlydisable.shader"
+	}
+
+	# tiny top left icon
+	spriteType = {
+		name = "GFX_tradition_category_icon_tradition_terraform"
+		textureFile = "gfx/interface/icons/traditions/tree_icons/tradition_icon_terraform.dds"
+	}
+
+
+	### MAIN ICONS ###
+
+	spriteType = {
+		name = "GFX_tr_terraform_frontier_exploitation"
+		textureFile = "gfx/interface/icons/traditions/tr_terraform_frontier_exploitation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_tr_terraform_mantle_sculpting"
+		textureFile = "gfx/interface/icons/traditions/tr_terraform_mantle_sculpting.dds"
+	}
+
+	spriteType = {
+		name = "GFX_tr_terraform_world_shaper"
+		textureFile = "gfx/interface/icons/traditions/tr_terraform_world_shaper.dds"
+	}
+
+	spriteType = {
+		name = "GFX_tr_terraform_climate_engineering"
+		textureFile = "gfx/interface/icons/traditions/tr_terraform_climate_engineering.dds"
+	}
+
+	spriteType = {
+		name = "GFX_tr_terraform_planet_restoration"
+		textureFile = "gfx/interface/icons/traditions/tr_terraform_planet_restoration.dds"
+	}
+}

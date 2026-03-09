@@ -1,0 +1,81 @@
+# Terraform Tradition effects/perks
+
+# Adopt
+# Unlock Terraforming Agendas and gives next terraforming tech
+tr_terraform_adopt = {
+	unlocks_agenda = agenda_conquer_nature
+	modifier = {
+		terraforming_cost_mult = -0.25
+	}
+	effect = {
+		give_next_terraforming_tech_effect = yes
+	}
+}
+
+# Finish
+# Gaia planet bonus increase
+tr_terraform_finish = {
+	modifier = {
+		terraforming_cost_mult = -0.25
+		ascension_perks_add = 1
+	}
+}
+
+# Frontier Exploitation
+# Increases Job efficiency of Rural jobs (Farmers, Miners, Technicians)
+# Also gives a bonus to food/minerals/energy produced by those jobs
+tr_terraform_frontier_exploitation = {
+	modifier = {
+		planet_miners_produces_mult = 0.15
+		planet_farmers_produces_mult = 0.15
+		planet_technician_produces_mult = 0.15
+		planet_farmers_food_produces_add = 0.5
+		planet_miners_minerals_produces_add = 0.5
+		planet_technician_energy_produces_add = 0.5
+	}
+}
+
+# Mantle Sculpting
+# Enables decisions to add a single Strategy resource to a planet, and reduces blocker clear time & cost
+tr_terraform_mantle_sculpting = {
+	modifier = {
+		planet_strategy_resource_produces_mult = 0.25
+		planet_blocker_clear_time_mult = -0.25
+		planet_blocker_clear_cost_mult = -0.5
+	}
+}
+
+# World Shaper
+# Same effect as the World Shaper ascension perk
+tr_terraform_world_shaper = {
+	possible = {
+		has_tradition = tr_terraform_frontier_exploitation
+		has_tradition = tr_terraform_mantle_sculpting
+	}
+
+	modifier = {
+		terraforming_cost_mult = -0.25
+		add_attunement_the_composer_of_strands = @ascension_perk_attunement1
+	}
+
+	on_enabled = {
+		custom_tooltip = "allow_gaia"
+	}
+}
+
+# Climate Engineering
+# Reduces terraforming time and cost
+tr_terraform_climate_engineering = {
+	modifier = {
+		terraforming_cost_mult = -0.25
+		terraform_speed_mult = 0.25
+	}
+}
+
+# Planet Restoration
+# Lets you Terraform all terraforming candidate planets, eg Barren, Toxic and Frozen
+tr_terraform_planet_restoration = {
+	modifier = {
+		terraforming_cost_mult = -0.25
+	}
+}

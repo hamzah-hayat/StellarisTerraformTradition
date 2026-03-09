@@ -1,0 +1,51 @@
+tradition_terraform = {
+	tree_template = "tree_21_11"
+	adoption_bonus = "tr_terraform_adopt"
+	finish_bonus = "tr_terraform_finish"
+		
+	traditions = {
+		"tr_terraform_frontier_exploitation"
+		"tr_terraform_mantle_sculpting"
+		"tr_terraform_world_shaper"
+		"tr_terraform_climate_engineering"
+		"tr_terraform_planet_restoration"
+	}
+
+	# AI weighting
+	ai_weight = {
+		factor = 5
+		modifier = {
+			factor = 0
+			OR = {
+				is_void_dweller_empire = yes
+				has_origin = origin_shattered_ring
+			}
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				has_ethic = ethic_pacifist
+				has_ethic = ethic_xenophobe
+			}
+		}
+		modifier = {
+			factor = 3
+			OR = {
+				has_ethic = ethic_fanatic_pacifist
+				has_ethic = ethic_fanatic_xenophobe
+				is_wilderness_empire = yes
+			}
+		}
+		modifier = { #only way to get more nice planets
+			factor = 100
+			has_origin = origin_life_seeded
+		}
+		modifier = {
+			factor = 3
+			count_planet_within_border = {
+				count > 4
+				limit = { is_terraforming_candidate = yes }
+			}
+		}
+	}
+}
