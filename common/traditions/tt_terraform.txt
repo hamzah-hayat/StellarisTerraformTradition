@@ -10,17 +10,17 @@ tr_terraform_adopt = {
 		deposit_blockers_cost_mult = -0.5
 	}
 	on_enabled = {
-		give_next_terraforming_tech_effect = yes
+		give_next_terraforming_tech_option_effect = yes
 	}
 }
 
 # Finish
-# Gives Empire wide Gaia world benefits, and an ascension perk point
+# Gives Empire wide planet benefits (similar to Gaia but halved), and an ascension perk point
 tr_terraform_finish = {
 	modifier = {
-		planet_jobs_produces_mult = 0.10
-		pop_happiness = 0.10
-		logistic_growth_mult = 0.15
+		planet_jobs_produces_mult = 0.5
+		pop_happiness = 0.5
+		logistic_growth_mult = 0.10
 		ascension_perks_add = 1
 	}
 }
@@ -36,10 +36,10 @@ tr_terraform_frontier_exploitation = {
 	}
 }
 
-# Mantle Sculpting
+# Planet Probing
 # Enables decisions to add a single planetary deposit to a planet
 # Plus a bonus to rare crystal/exotic gas/volatile mote production
-tr_terraform_mantle_sculpting = {
+tr_terraform_planet_probing = {
 	modifier = {
 		planet_rare_crystals_produces_mult = 0.25
 		planet_exotic_gases_produces_mult = 0.25
@@ -56,7 +56,7 @@ tr_terraform_mantle_sculpting = {
 tr_terraform_world_shaper = {
 	possible = {
 		has_tradition = tr_terraform_frontier_exploitation
-		has_tradition = tr_terraform_mantle_sculpting
+		has_tradition = tr_terraform_planet_probing
 	}
 
 	modifier = {
@@ -83,5 +83,24 @@ tr_terraform_climate_engineering = {
 tr_terraform_planet_restoration = {
 	modifier = {
 		terraforming_cost_mult = -0.25
+	}
+
+	on_enabled = {
+		if = {
+			limit = { NOT = { has_technology = tech_climate_restoration } }
+			add_research_option = tech_climate_restoration
+			add_tech_progress = {
+				tech = tech_climate_restoration
+				progress = 0.5
+			}
+		}
+		else = {
+			add_monthly_resource_mult = {
+				resource = society_research
+				value = @tier3researchreward
+				min = @tier3researchmin
+				max = @tier3researchmax
+			}
+		}
 	}
 }

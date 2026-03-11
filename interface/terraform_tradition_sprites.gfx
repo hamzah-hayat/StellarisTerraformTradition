@@ -5,7 +5,7 @@ spriteTypes = {
 	# hex background
 	spriteType = {
 		name = "GFX_tradition_hex_bg_tradition_terraform"
-		textureFile = "gfx/interface/traditions/tradition_category_tile_expansion.dds"
+		textureFile = "gfx/interface/traditions/tradition_category_tile_terraform.dds"
 	}
 
 	# tile background 
@@ -37,8 +37,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_tr_terraform_mantle_sculpting"
-		textureFile = "gfx/interface/icons/traditions/tr_terraform_mantle_sculpting.dds"
+		name = "GFX_tr_terraform_planet_probing"
+		textureFile = "gfx/interface/icons/traditions/tr_terraform_planet_probing.dds"
 	}
 
 	spriteType = {

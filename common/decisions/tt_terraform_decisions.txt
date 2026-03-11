@@ -1,6 +1,6 @@
 # Decisions for the Terraform Tradition
 # Adds a basic planetary deposit to a planet, with the type of deposit depending on the planet class. 
-# Requires the Mantle Sculpting tradition and costs energy to enact.
+# Requires the Planet Probing tradition and costs energy to enact.
 tt_decision_add_planetary_deposit_energy = {
 	icon = decision_divine_algorithm
 	sound = decision_resources
@@ -13,7 +13,7 @@ tt_decision_add_planetary_deposit_energy = {
 	}
 
 	potential = {
-		has_tradition = tr_terraform_mantle_sculpting
+		has_tradition = tr_terraform_planet_probing
 		planet = {
 			NOT = { has_planet_flag = tt_established_basic_deposit }
 		}
@@ -71,7 +71,7 @@ tt_decision_add_planetary_deposit_minerals = {
 	}
 
 	potential = {
-		has_tradition = tr_terraform_mantle_sculpting
+		has_tradition = tr_terraform_planet_probing
 		planet = {
 			NOT = { has_planet_flag = tt_established_basic_deposit }
 		}
@@ -118,7 +118,7 @@ tt_decision_add_planetary_deposit_food = {
 	}
 
 	potential = {
-		has_tradition = tr_terraform_mantle_sculpting
+		has_tradition = tr_terraform_planet_probing
 		planet = {
 			NOT = { has_planet_flag = tt_established_basic_deposit }
 		}
@@ -181,7 +181,7 @@ tt_decision_add_planetary_deposit_rare_crystals = {
 	}
 
 	potential = {
-		has_tradition = tr_terraform_mantle_sculpting
+		has_tradition = tr_terraform_planet_probing
 		planet = {
 			NOT = { is_planet_class = pc_volcanic }
 			NOT = { has_planet_flag = tt_established_advanced_deposit }
@@ -233,7 +233,7 @@ tt_decision_add_planetary_deposit_volatile_motes = {
 	}
 
 	potential = {
-		has_tradition = tr_terraform_mantle_sculpting
+		has_tradition = tr_terraform_planet_probing
 		planet = {
 			NOT = { has_planet_flag = tt_established_advanced_deposit }
 		}
@@ -276,7 +276,7 @@ tt_decision_add_planetary_deposit_exotic_gases = {
 	}
 
 	potential = {
-		has_tradition = tr_terraform_mantle_sculpting
+		has_tradition = tr_terraform_planet_probing
 		planet = {
 			NOT = { has_planet_flag = tt_established_advanced_deposit }
 		}
