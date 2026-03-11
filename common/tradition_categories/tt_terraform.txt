@@ -6,8 +6,8 @@ tradition_terraform = {
 	traditions = {
 		"tr_terraform_frontier_exploitation"
 		"tr_terraform_mantle_sculpting"
-		"tr_terraform_world_shaper"
 		"tr_terraform_climate_engineering"
+		"tr_terraform_world_shaper"
 		"tr_terraform_planet_restoration"
 	}
 

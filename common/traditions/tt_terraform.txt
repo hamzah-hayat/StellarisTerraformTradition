@@ -2,21 +2,25 @@
 
 # Adopt
 # Unlock Terraforming Agendas and gives next terraforming tech
+# Also makes clearing blockers faster and cheaper
 tr_terraform_adopt = {
 	unlocks_agenda = agenda_conquer_nature
 	modifier = {
-		terraforming_cost_mult = -0.25
+		planet_clear_blocker_speed_mult = 0.33
+		deposit_blockers_cost_mult = -0.5
 	}
-	effect = {
+	on_enabled = {
 		give_next_terraforming_tech_effect = yes
 	}
 }
 
 # Finish
-# Gaia planet bonus increase
+# Gives Empire wide Gaia world benefits, and an ascension perk point
 tr_terraform_finish = {
 	modifier = {
-		terraforming_cost_mult = -0.25
+		planet_jobs_produces_mult = 0.10
+		pop_happiness = 0.10
+		logistic_growth_mult = 0.15
 		ascension_perks_add = 1
 	}
 }
@@ -29,19 +33,21 @@ tr_terraform_frontier_exploitation = {
 		planet_miners_produces_mult = 0.15
 		planet_farmers_produces_mult = 0.15
 		planet_technician_produces_mult = 0.15
-		planet_farmers_food_produces_add = 0.5
-		planet_miners_minerals_produces_add = 0.5
-		planet_technician_energy_produces_add = 0.5
 	}
 }
 
 # Mantle Sculpting
-# Enables decisions to add a single Strategy resource to a planet, and reduces blocker clear time & cost
+# Enables decisions to add a single planetary deposit to a planet
+# Plus a bonus to rare crystal/exotic gas/volatile mote production
 tr_terraform_mantle_sculpting = {
 	modifier = {
-		planet_strategy_resource_produces_mult = 0.25
-		planet_blocker_clear_time_mult = -0.25
-		planet_blocker_clear_cost_mult = -0.5
+		planet_rare_crystals_produces_mult = 0.25
+		planet_exotic_gases_produces_mult = 0.25
+		planet_volatile_motes_produces_mult = 0.25
+	}
+
+	on_enabled = {
+		custom_tooltip = "tr_terraform_create_planetary_deposit"
 	}
 }
 

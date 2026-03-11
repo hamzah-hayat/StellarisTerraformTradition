@@ -12,3 +12,6 @@
     tr_terraform_climate_engineering_delayed:0 "Our expertise in climate engineering allows us to terraform planets faster than ever before."
     tr_terraform_planet_restoration:0 "Planet Restoration"
     tr_terraform_planet_restoration_delayed:0 "There are Barren, Toxic and Frozen worlds out there, waiting to be given life"
+
+
+    tr_terraform_create_planetary_deposit:0 "Allows us to create a single §Yplanetary deposit§! on our worlds."

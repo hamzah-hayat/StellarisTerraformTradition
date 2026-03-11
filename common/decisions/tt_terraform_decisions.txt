@@ -1,0 +1,307 @@
+# Decisions for the Terraform Tradition
+# Adds a basic planetary deposit to a planet, with the type of deposit depending on the planet class. 
+# Requires the Mantle Sculpting tradition and costs energy to enact.
+tt_decision_add_planetary_deposit_energy = {
+	icon = decision_divine_algorithm
+	sound = decision_resources
+
+	enactment_time = 360
+
+	resources = {
+		category = decisions
+		cost = { energy = 3000 }
+	}
+
+	potential = {
+		has_tradition = tr_terraform_mantle_sculpting
+		planet = {
+			NOT = { has_planet_flag = tt_established_basic_deposit }
+		}
+	}
+
+	owned_planets_only = yes
+
+	effect = {
+		planet = {
+			if = {
+				limit = { 
+					OR = {
+						is_planet_class = pc_arctic
+						is_planet_class = pc_tundra
+						is_planet_class = pc_savannah
+						is_planet_class = pc_desert
+						is_planet_class = pc_arid
+						is_planet_class = pc_volcanic
+					}
+				}
+				add_deposit = d_geothermal_vent
+			}
+			else_if = {
+				limit = { 
+					OR = {
+						is_planet_class = pc_gaia
+						is_planet_class = pc_relic
+						is_planet_class = pc_ocean
+						is_planet_class = pc_nuked
+					}
+				}
+				add_deposit = d_underwater_vent
+			}
+			else = {
+				add_deposit = d_tempestous_mountain
+			}
+			set_planet_flag = tt_established_basic_deposit
+		}
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+}
+
+tt_decision_add_planetary_deposit_minerals = {
+	icon = decision_strip_mining
+	sound = decision_resources
+
+	enactment_time = 360
+
+	resources = {
+		category = decisions
+		cost = { energy = 3000 }
+	}
+
+	potential = {
+		has_tradition = tr_terraform_mantle_sculpting
+		planet = {
+			NOT = { has_planet_flag = tt_established_basic_deposit }
+		}
+	}
+
+	owned_planets_only = yes
+
+	effect = {
+		planet = {
+			if = {
+				limit = { 
+					OR = {
+						is_planet_class = pc_ocean
+						is_planet_class = pc_tropical
+						is_planet_class = pc_savannah
+						is_planet_class = pc_nuked
+						is_planet_class = pc_gaia
+						is_planet_class = pc_relic
+					}
+				}
+				add_deposit = d_submerged_ore_veins
+			}
+			else = {
+				add_deposit = d_rich_mountain
+			}
+			set_planet_flag = tt_established_basic_deposit
+		}
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+}
+
+tt_decision_add_planetary_deposit_food = {
+	icon = decision_arid_planet
+	sound = decision_resources
+
+	enactment_time = 360
+
+	resources = {
+		category = decisions
+		cost = { energy = 3000 }
+	}
+
+	potential = {
+		has_tradition = tr_terraform_mantle_sculpting
+		planet = {
+			NOT = { has_planet_flag = tt_established_basic_deposit }
+		}
+	}
+
+	owned_planets_only = yes
+
+	effect = {
+		planet = {
+			if = {
+				limit = { 
+					is_cold = yes
+				}
+				add_deposit = d_fungal_forest
+			}
+			else_if = {
+				limit = { 
+					is_planet_class = pc_tropical
+				}
+				add_deposit = d_tropical_island
+			}
+			else_if = {
+				limit = { 
+					OR = {
+						is_planet_class = pc_arid
+						is_planet_class = pc_desert
+					}
+				}
+				add_deposit = d_marvelous_oasis
+			}
+			else_if = {
+				limit = { 
+					is_planet_class = pc_ocean
+				}
+				add_deposit = d_teeming_reef
+			}
+			else = {
+				add_deposit = d_black_soil
+			}
+			set_planet_flag = tt_established_basic_deposit
+		}
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+}
+
+# Adds a rare crystals deposit to a planet
+# Note, Volcanic worlds do not have a rare crystals deposit
+tt_decision_add_planetary_deposit_rare_crystals = {
+	icon = decision_rare_crystals
+	sound = decision_resources
+
+	enactment_time = 360
+
+	resources = {
+		category = decisions
+		cost = { energy = 3000 }
+	}
+
+	potential = {
+		has_tradition = tr_terraform_mantle_sculpting
+		planet = {
+			NOT = { is_planet_class = pc_volcanic }
+			NOT = { has_planet_flag = tt_established_advanced_deposit }
+		}
+	}
+
+	allow = {
+		owner = { has_technology = tech_rare_crystals }
+	}
+
+	owned_planets_only = yes
+
+	effect = {
+		planet = {
+			if = {
+				limit = {
+					OR = {
+						is_planet_class = pc_ocean
+						is_planet_class = pc_nuked
+						is_planet_class = pc_gaia
+						is_planet_class = pc_hive
+						is_planet_class = pc_machine
+					}
+				}
+				add_deposit = d_crystal_reef
+			}
+			else = {
+				add_deposit = d_crystal_forest
+			}
+			set_planet_flag = tt_established_advanced_deposit
+		}
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+}
+
+# Adds a volatile motes deposit to a planet
+tt_decision_add_planetary_deposit_volatile_motes = {
+	icon = decision_volatile_motes
+	sound = decision_resources
+
+	enactment_time = 360
+
+	resources = {
+		category = decisions
+		cost = { energy = 3000 }
+	}
+
+	potential = {
+		has_tradition = tr_terraform_mantle_sculpting
+		planet = {
+			NOT = { has_planet_flag = tt_established_advanced_deposit }
+		}
+	}
+
+	allow = {
+		owner = { has_technology = tech_volatile_motes }
+	}
+
+	owned_planets_only = yes
+
+	effect = {
+		planet = {
+			if = {
+				limit = {  is_planet_class = pc_volcanic }
+				add_deposit = d_volcanic_stifling_atmosphere
+			}
+			else = {
+				add_deposit = d_dust_desert
+			}
+			set_planet_flag = tt_established_advanced_deposit
+		}
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+}
+
+# Adds an exotic gases deposit to a planet
+tt_decision_add_planetary_deposit_exotic_gases = {
+	icon = decision_exotic_gases
+	sound = decision_resources
+
+	enactment_time = 360
+
+	resources = {
+		category = decisions
+		cost = { energy = 3000 }
+	}
+
+	potential = {
+		has_tradition = tr_terraform_mantle_sculpting
+		planet = {
+			NOT = { has_planet_flag = tt_established_advanced_deposit }
+		}
+	}
+
+	allow = {
+		owner = { has_technology = tech_exotic_gases }
+	}
+
+	owned_planets_only = yes
+
+	effect = {
+		planet = {
+			if = {
+				limit = {  is_planet_class = pc_volcanic }
+				add_deposit = d_volcanic_fumarole
+			}
+			else = {
+				add_deposit = d_dust_desert
+			}
+			set_planet_flag = tt_established_advanced_deposit
+		}
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+}
