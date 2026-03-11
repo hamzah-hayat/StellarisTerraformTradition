@@ -87,10 +87,7 @@ tr_terraform_planet_restoration = {
 	}
 
 	on_enabled = {
-		custom_tooltip = "tt_terraform_planet_restoration_unlocked"
-	}
-
-	on_enabled = {
+		custom_tooltip = "tr_terraform_planet_restoration_unlocked"
 		if = {
 			limit = { NOT = { has_technology = tech_climate_restoration } }
 			add_research_option = tech_climate_restoration
