@@ -11,7 +11,9 @@
     tr_terraform_climate_engineering:0 "Climate Engineering"
     tr_terraform_climate_engineering_delayed:0 "Our expertise in climate engineering allows us to terraform planets faster than ever before."
     tr_terraform_planet_restoration:0 "Planet Restoration"
-    tr_terraform_planet_restoration_delayed:0 "There are Barren, Toxic and Frozen worlds out there, waiting to be given life"
+    tr_terraform_planet_restoration_delayed:0 "Even the most Frozen planets can be thawed, and the most Toxic planets cleansed. We will make them all habitable."
 
 
-    tr_terraform_create_planetary_deposit:0 "Allows us to create a single §Yplanetary deposit§! on our worlds."
+    tr_terraform_create_basic_planetary_deposit:0 "Allows us to create a single basic §Yplanetary deposit§! on our worlds."
+    tr_terraform_create_strategic_planetary_deposit:0 "Allows us to create a single strategic §Yplanetary deposit§! on our worlds.\n§YYou must have the appropriate strategic resource technology§!"
+    tr_terraform_planet_restoration_unlocked:0 "Allows us to terraform §YToxic§! and §YFrozen§! planets."

@@ -9,7 +9,7 @@ tt_decision_add_planetary_deposit_energy = {
 
 	resources = {
 		category = decisions
-		cost = { energy = 3000 }
+		cost = { energy = 1500 }
 	}
 
 	potential = {
@@ -67,7 +67,7 @@ tt_decision_add_planetary_deposit_minerals = {
 
 	resources = {
 		category = decisions
-		cost = { energy = 3000 }
+		cost = { energy = 1500 }
 	}
 
 	potential = {
@@ -114,7 +114,7 @@ tt_decision_add_planetary_deposit_food = {
 
 	resources = {
 		category = decisions
-		cost = { energy = 3000 }
+		cost = { energy = 1500 }
 	}
 
 	potential = {
@@ -297,6 +297,43 @@ tt_decision_add_planetary_deposit_exotic_gases = {
 			else = {
 				add_deposit = d_dust_desert
 			}
+			set_planet_flag = tt_established_advanced_deposit
+		}
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+}
+
+# Adds a Betharian fields deposit to a planet
+tt_decision_add_planetary_deposit_betherian_fields = {
+	icon = decision_betherian_fields
+	sound = decision_resources
+
+	enactment_time = 360
+
+	resources = {
+		category = decisions
+		cost = { energy = 3000 }
+	}
+
+	potential = {
+		has_tradition = tr_terraform_planet_probing
+		planet = {
+			NOT = { has_planet_flag = tt_established_advanced_deposit }
+		}
+	}
+
+	allow = {
+		owner = { has_technology = tech_mine_betharian }
+	}
+
+	owned_planets_only = yes
+
+	effect = {
+		planet = {
+			add_deposit = d_betharian_deposit
 			set_planet_flag = tt_established_advanced_deposit
 		}
 	}

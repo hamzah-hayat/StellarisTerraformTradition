@@ -47,7 +47,8 @@ tr_terraform_planet_probing = {
 	}
 
 	on_enabled = {
-		custom_tooltip = "tr_terraform_create_planetary_deposit"
+		custom_tooltip = "tr_terraform_create_basic_planetary_deposit"
+		custom_tooltip = "tr_terraform_create_strategic_planetary_deposit"
 	}
 }
 
@@ -81,8 +82,12 @@ tr_terraform_climate_engineering = {
 # Planet Restoration
 # Lets you Terraform all terraforming candidate planets, eg Barren, Toxic and Frozen
 tr_terraform_planet_restoration = {
-	modifier = {
-		terraforming_cost_mult = -0.25
+	possible = {
+		has_tradition = tr_terraform_climate_engineering
+	}
+
+	on_enabled = {
+		custom_tooltip = "tt_terraform_planet_restoration_unlocked"
 	}
 
 	on_enabled = {

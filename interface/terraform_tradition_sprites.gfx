@@ -5,7 +5,7 @@ spriteTypes = {
 	# hex background
 	spriteType = {
 		name = "GFX_tradition_hex_bg_tradition_terraform"
-		textureFile = "gfx/interface/traditions/tradition_category_tile_terraform.dds"
+		textureFile = "gfx/interface/traditions/tradition_hex_bg_terraform.dds"
 	}
 
 	# tile background 
