@@ -53,7 +53,10 @@ tt_decision_add_planetary_deposit_energy = {
 			else = {
 				add_deposit = d_tempestous_mountain
 			}
-			set_planet_flag = tt_established_basic_deposit
+			custom_tooltip = {
+				text = tt_decisions_add_basic_deposit_block_tooltip
+				set_planet_flag = tt_established_basic_deposit
+			}
 		}
 	}
 
@@ -103,7 +106,10 @@ tt_decision_add_planetary_deposit_minerals = {
 			else = {
 				add_deposit = d_rich_mountain
 			}
-			set_planet_flag = tt_established_basic_deposit
+			custom_tooltip = {
+				text = tt_decisions_add_basic_deposit_block_tooltip
+				set_planet_flag = tt_established_basic_deposit
+			}
 		}
 	}
 
@@ -167,7 +173,10 @@ tt_decision_add_planetary_deposit_food = {
 			else = {
 				add_deposit = d_black_soil
 			}
-			set_planet_flag = tt_established_basic_deposit
+			custom_tooltip = {
+				text = tt_decisions_add_basic_deposit_block_tooltip
+				set_planet_flag = tt_established_basic_deposit
+			}
 		}
 	}
 
@@ -195,7 +204,7 @@ tt_decision_add_planetary_deposit_rare_crystals = {
 		}
 		planet = {
 			NOT = { is_planet_class = pc_volcanic }
-			NOT = { has_planet_flag = tt_established_advanced_deposit }
+			NOT = { has_planet_flag = tt_established_strategic_deposit }
 		}
 	}
 
@@ -222,7 +231,10 @@ tt_decision_add_planetary_deposit_rare_crystals = {
 			else = {
 				add_deposit = d_crystal_forest
 			}
-			set_planet_flag = tt_established_advanced_deposit
+			custom_tooltip = {
+				text = tt_decisions_add_strategic_deposit_block_tooltip
+				set_planet_flag = tt_established_strategic_deposit
+			}
 		}
 	}
 
@@ -248,7 +260,7 @@ tt_decision_add_planetary_deposit_volatile_motes = {
 			has_tradition = tr_terraform_planet_probing
 		}
 		planet = {
-			NOT = { has_planet_flag = tt_established_advanced_deposit }
+			NOT = { has_planet_flag = tt_established_strategic_deposit }
 		}
 	}
 
@@ -267,7 +279,10 @@ tt_decision_add_planetary_deposit_volatile_motes = {
 			else = {
 				add_deposit = d_dust_desert
 			}
-			set_planet_flag = tt_established_advanced_deposit
+			custom_tooltip = {
+				text = tt_decisions_add_strategic_deposit_block_tooltip
+				set_planet_flag = tt_established_strategic_deposit
+			}
 		}
 	}
 
@@ -293,7 +308,7 @@ tt_decision_add_planetary_deposit_exotic_gases = {
 			has_tradition = tr_terraform_planet_probing
 		}
 		planet = {
-			NOT = { has_planet_flag = tt_established_advanced_deposit }
+			NOT = { has_planet_flag = tt_established_strategic_deposit }
 		}
 	}
 
@@ -312,7 +327,10 @@ tt_decision_add_planetary_deposit_exotic_gases = {
 			else = {
 				add_deposit = d_fuming_bog
 			}
-			set_planet_flag = tt_established_advanced_deposit
+			custom_tooltip = {
+				text = tt_decisions_add_strategic_deposit_block_tooltip
+				set_planet_flag = tt_established_strategic_deposit
+			}
 		}
 	}
 
@@ -338,7 +356,7 @@ tt_decision_add_planetary_deposit_betherian_fields = {
 			has_tradition = tr_terraform_planet_probing
 		}
 		planet = {
-			NOT = { has_planet_flag = tt_established_advanced_deposit }
+			NOT = { has_planet_flag = tt_established_strategic_deposit }
 		}
 	}
 
@@ -351,7 +369,10 @@ tt_decision_add_planetary_deposit_betherian_fields = {
 	effect = {
 		planet = {
 			add_deposit = d_betharian_deposit
-			set_planet_flag = tt_established_advanced_deposit
+			custom_tooltip = {
+				text = tt_decisions_add_strategic_deposit_block_tooltip
+				set_planet_flag = tt_established_strategic_deposit
+			}
 		}
 	}
 

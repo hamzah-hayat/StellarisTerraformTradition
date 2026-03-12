@@ -33,3 +33,6 @@
     tt_decision_add_planetary_deposit_exotic_gases_desc:0 ""
     tt_decision_add_planetary_deposit_betherian_fields:0 "Terraform - Add Betherian Fields Deposit"
     tt_decision_add_planetary_deposit_betherian_fields_desc:0 ""
+
+    tt_decisions_add_basic_deposit_block_tooltip:0 "You can only add §Yone§! basic deposit to each planet."
+    tt_decisions_add_strategic_deposit_block_tooltip:0 "You can only add §Yone§! strategic deposit to each planet."
