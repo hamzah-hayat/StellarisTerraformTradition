@@ -23,3 +23,10 @@ This version is built for Stellaris Cetus 4.3.0 (BETA 48b3)
 
 ## Features
     - N/A
+
+
+# 1.0.2
+This version is built for Stellaris Cetus 4.3.0 (BETA 48b3)
+
+## Fixes
+    - Fix Deposit decisions tooltips and icons
