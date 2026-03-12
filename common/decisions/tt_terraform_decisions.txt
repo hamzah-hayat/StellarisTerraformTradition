@@ -13,7 +13,10 @@ tt_decision_add_planetary_deposit_energy = {
 	}
 
 	potential = {
-		has_tradition = tr_terraform_planet_probing
+		exists = owner
+		owner = {
+			has_tradition = tr_terraform_planet_probing
+		}
 		planet = {
 			NOT = { has_planet_flag = tt_established_basic_deposit }
 		}
@@ -71,7 +74,10 @@ tt_decision_add_planetary_deposit_minerals = {
 	}
 
 	potential = {
-		has_tradition = tr_terraform_planet_probing
+		exists = owner
+		owner = {
+			has_tradition = tr_terraform_planet_probing
+		}
 		planet = {
 			NOT = { has_planet_flag = tt_established_basic_deposit }
 		}
@@ -118,7 +124,10 @@ tt_decision_add_planetary_deposit_food = {
 	}
 
 	potential = {
-		has_tradition = tr_terraform_planet_probing
+		exists = owner
+		owner = {
+			has_tradition = tr_terraform_planet_probing
+		}
 		planet = {
 			NOT = { has_planet_flag = tt_established_basic_deposit }
 		}
@@ -170,7 +179,6 @@ tt_decision_add_planetary_deposit_food = {
 # Adds a rare crystals deposit to a planet
 # Note, Volcanic worlds do not have a rare crystals deposit
 tt_decision_add_planetary_deposit_rare_crystals = {
-	icon = decision_rare_crystals
 	sound = decision_resources
 
 	enactment_time = 360
@@ -181,7 +189,10 @@ tt_decision_add_planetary_deposit_rare_crystals = {
 	}
 
 	potential = {
-		has_tradition = tr_terraform_planet_probing
+		exists = owner
+		owner = {
+			has_tradition = tr_terraform_planet_probing
+		}
 		planet = {
 			NOT = { is_planet_class = pc_volcanic }
 			NOT = { has_planet_flag = tt_established_advanced_deposit }
@@ -222,7 +233,6 @@ tt_decision_add_planetary_deposit_rare_crystals = {
 
 # Adds a volatile motes deposit to a planet
 tt_decision_add_planetary_deposit_volatile_motes = {
-	icon = decision_volatile_motes
 	sound = decision_resources
 
 	enactment_time = 360
@@ -233,7 +243,10 @@ tt_decision_add_planetary_deposit_volatile_motes = {
 	}
 
 	potential = {
-		has_tradition = tr_terraform_planet_probing
+		exists = owner
+		owner = {
+			has_tradition = tr_terraform_planet_probing
+		}
 		planet = {
 			NOT = { has_planet_flag = tt_established_advanced_deposit }
 		}
@@ -265,7 +278,6 @@ tt_decision_add_planetary_deposit_volatile_motes = {
 
 # Adds an exotic gases deposit to a planet
 tt_decision_add_planetary_deposit_exotic_gases = {
-	icon = decision_exotic_gases
 	sound = decision_resources
 
 	enactment_time = 360
@@ -276,7 +288,10 @@ tt_decision_add_planetary_deposit_exotic_gases = {
 	}
 
 	potential = {
-		has_tradition = tr_terraform_planet_probing
+		exists = owner
+		owner = {
+			has_tradition = tr_terraform_planet_probing
+		}
 		planet = {
 			NOT = { has_planet_flag = tt_established_advanced_deposit }
 		}
@@ -295,7 +310,7 @@ tt_decision_add_planetary_deposit_exotic_gases = {
 				add_deposit = d_volcanic_fumarole
 			}
 			else = {
-				add_deposit = d_dust_desert
+				add_deposit = d_fuming_bog
 			}
 			set_planet_flag = tt_established_advanced_deposit
 		}
@@ -308,7 +323,6 @@ tt_decision_add_planetary_deposit_exotic_gases = {
 
 # Adds a Betharian fields deposit to a planet
 tt_decision_add_planetary_deposit_betherian_fields = {
-	icon = decision_betherian_fields
 	sound = decision_resources
 
 	enactment_time = 360
@@ -319,7 +333,10 @@ tt_decision_add_planetary_deposit_betherian_fields = {
 	}
 
 	potential = {
-		has_tradition = tr_terraform_planet_probing
+		exists = owner
+		owner = {
+			has_tradition = tr_terraform_planet_probing
+		}
 		planet = {
 			NOT = { has_planet_flag = tt_established_advanced_deposit }
 		}
