@@ -24,6 +24,19 @@ tt_decision_add_planetary_deposit_energy = {
 
 	owned_planets_only = yes
 
+	on_queued = {
+		planet = {
+			set_planet_flag = tt_established_basic_deposit
+		}
+	}
+
+	on_unqueued = {
+		planet = {
+			remove_planet_flag = tt_established_basic_deposit
+		}
+	}
+
+
 	effect = {
 		planet = {
 			if = {
@@ -54,7 +67,6 @@ tt_decision_add_planetary_deposit_energy = {
 				add_deposit = d_tempestous_mountain
 			}
 			custom_tooltip = tt_decisions_add_basic_deposit_block_tooltip
-			set_planet_flag = tt_established_basic_deposit
 		}
 	}
 
@@ -86,6 +98,19 @@ tt_decision_add_planetary_deposit_minerals = {
 
 	owned_planets_only = yes
 
+	on_queued = {
+		planet = {
+			set_planet_flag = tt_established_basic_deposit
+		}
+	}
+
+	on_unqueued = {
+		planet = {
+			remove_planet_flag = tt_established_basic_deposit
+		}
+	}
+
+
 	effect = {
 		planet = {
 			if = {
@@ -105,7 +130,6 @@ tt_decision_add_planetary_deposit_minerals = {
 				add_deposit = d_rich_mountain
 			}
 			custom_tooltip = tt_decisions_add_basic_deposit_block_tooltip
-			set_planet_flag = tt_established_basic_deposit
 		}
 	}
 
@@ -136,6 +160,18 @@ tt_decision_add_planetary_deposit_food = {
 	}
 
 	owned_planets_only = yes
+
+	on_queued = {
+		planet = {
+			set_planet_flag = tt_established_basic_deposit
+		}
+	}
+
+	on_unqueued = {
+		planet = {
+			remove_planet_flag = tt_established_basic_deposit
+		}
+	}
 
 	effect = {
 		planet = {
@@ -170,7 +206,6 @@ tt_decision_add_planetary_deposit_food = {
 				add_deposit = d_black_soil
 			}
 			custom_tooltip = tt_decisions_add_basic_deposit_block_tooltip
-			set_planet_flag = tt_established_basic_deposit
 		}
 	}
 
@@ -209,6 +244,18 @@ tt_decision_add_planetary_deposit_rare_crystals = {
 
 	owned_planets_only = yes
 
+	on_queued = {
+		planet = {
+			set_planet_flag = tt_established_strategic_deposit
+		}
+	}
+
+	on_unqueued = {
+		planet = {
+			remove_planet_flag = tt_established_strategic_deposit
+		}
+	}
+
 	effect = {
 		planet = {
 			if = {
@@ -227,7 +274,6 @@ tt_decision_add_planetary_deposit_rare_crystals = {
 				add_deposit = d_crystal_forest
 			}
 			custom_tooltip = tt_decisions_add_strategic_deposit_block_tooltip
-			set_planet_flag = tt_established_strategic_deposit
 		}
 	}
 
@@ -264,6 +310,18 @@ tt_decision_add_planetary_deposit_volatile_motes = {
 
 	owned_planets_only = yes
 
+	on_queued = {
+		planet = {
+			set_planet_flag = tt_established_strategic_deposit
+		}
+	}
+
+	on_unqueued = {
+		planet = {
+			remove_planet_flag = tt_established_strategic_deposit
+		}
+	}
+
 	effect = {
 		planet = {
 			if = {
@@ -274,7 +332,6 @@ tt_decision_add_planetary_deposit_volatile_motes = {
 				add_deposit = d_dust_desert
 			}
 			custom_tooltip = tt_decisions_add_strategic_deposit_block_tooltip
-			set_planet_flag = tt_established_strategic_deposit
 		}
 	}
 
@@ -311,6 +368,18 @@ tt_decision_add_planetary_deposit_exotic_gases = {
 
 	owned_planets_only = yes
 
+	on_queued = {
+		planet = {
+			set_planet_flag = tt_established_strategic_deposit
+		}
+	}
+
+	on_unqueued = {
+		planet = {
+			remove_planet_flag = tt_established_strategic_deposit
+		}
+	}
+
 	effect = {
 		planet = {
 			if = {
@@ -321,7 +390,6 @@ tt_decision_add_planetary_deposit_exotic_gases = {
 				add_deposit = d_fuming_bog
 			}
 			custom_tooltip = tt_decisions_add_strategic_deposit_block_tooltip
-			set_planet_flag = tt_established_strategic_deposit
 		}
 	}
 
@@ -358,11 +426,22 @@ tt_decision_add_planetary_deposit_betherian_fields = {
 
 	owned_planets_only = yes
 
+	on_queued = {
+		planet = {
+			set_planet_flag = tt_established_strategic_deposit
+		}
+	}
+
+	on_unqueued = {
+		planet = {
+			remove_planet_flag = tt_established_strategic_deposit
+		}
+	}
+
 	effect = {
 		planet = {
 			add_deposit = d_betharian_deposit
 			custom_tooltip = tt_decisions_add_strategic_deposit_block_tooltip
-			set_planet_flag = tt_established_strategic_deposit
 		}
 	}
 
