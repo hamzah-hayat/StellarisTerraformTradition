@@ -3,6 +3,7 @@
     tradition_terraform:0 "Terraform"
     tradition_terraform_desc:0 "We will transform the galaxy into home, one planet at a time."
     tr_terraform_adopt:0 "Terraform Tradition"
+    tr_terraform_finish:0 "Terraforming Mastery"
     tr_terraform_frontier_exploitation:0 "Frontier Exploitation"
     tr_terraform_frontier_exploitation_delayed:0 "Mastering the basics of resource extraction will pay dividends in the years to come."
     tr_terraform_planet_probing:0 "Planet Probing"
@@ -14,6 +15,7 @@
     tr_terraform_planet_restoration:0 "Planet Restoration"
     tr_terraform_planet_restoration_delayed:0 "Even the most Frozen planets can be thawed, and the most Toxic planets cleansed. We will make them all habitable."
 
+    tr_terraform_finish_gaia_mastery_unlocked:0 "You can now add the §YGaia Mastery§! planet preference type via gene tailoring."
     tr_terraform_create_basic_planetary_deposit:0 "Allows us to create a single basic §Yplanetary deposit§! on our worlds."
     tr_terraform_create_strategic_planetary_deposit:0 "Allows us to create a single strategic §Yplanetary deposit§! on our worlds.\n§YYou must have the appropriate strategic resource technology§!"
     tr_terraform_planet_restoration_unlocked:0 "Allows us to terraform §YToxic§! and §YFrozen§! planets."
@@ -41,3 +43,9 @@
     decision_cultivated_worldscaping_replace_mastery_of_nature_desc: "$decision_cultivated_worldscaping_desc$"
 
     tt_already_has_terraform_tradition:0 "You have already adopted the Terraform Tradition."
+
+    # Traits
+    trait_pc_gaia_preference_mastery:0 "$trait_pc_gaia_preference$"
+    trait_pc_gaia_preference_mastery_short:0 "$trait_pc_gaia_preference_short$"
+    trait_pc_gaia_preference_mastery_desc:0 "§LClimate preference is determined at the genetic level, and in this case, by mastering the art of terraforming.§!"
+    gaia_preference_mastery_trait_tooltip:0 "Pop Output on Gaia Worlds: §G+10%§!\n    - Happiness on Gaia Worlds: §G+10%§!\n    - Population Growth on Gaia Worlds: §G+15%§!"

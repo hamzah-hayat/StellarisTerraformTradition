@@ -1,6 +1,8 @@
 # Decisions for the Terraform Tradition
-# Adds a basic planetary deposit to a planet, with the type of deposit depending on the planet class. 
-# Requires the Planet Probing tradition and costs energy to enact.
+
+## Planet Probing Decisions
+## Basic Deposits
+### Adds a basic planetary deposit to a planet, with the type of deposit depending on the planet class. 
 tt_decision_add_planetary_deposit_energy = {
 	icon = decision_divine_algorithm
 	sound = decision_resources
@@ -214,8 +216,9 @@ tt_decision_add_planetary_deposit_food = {
 	}
 }
 
-# Adds a rare crystals deposit to a planet
-# Note, Volcanic worlds do not have a rare crystals deposit
+## Strategic Deposits
+### Adds a rare crystals deposit to a planet
+### Note, Volcanic worlds do not have a rare crystals deposit
 tt_decision_add_planetary_deposit_rare_crystals = {
 	icon = decision_add_planetary_deposit_rare_crystals
 	sound = decision_resources
@@ -282,7 +285,7 @@ tt_decision_add_planetary_deposit_rare_crystals = {
 	}
 }
 
-# Adds a volatile motes deposit to a planet
+### Adds a volatile motes deposit to a planet
 tt_decision_add_planetary_deposit_volatile_motes = {
 	icon = decision_add_planetary_deposit_volatile_motes
 	sound = decision_resources
@@ -340,7 +343,7 @@ tt_decision_add_planetary_deposit_volatile_motes = {
 	}
 }
 
-# Adds an exotic gases deposit to a planet
+### Adds an exotic gases deposit to a planet
 tt_decision_add_planetary_deposit_exotic_gases = {
 	icon = decision_add_planetary_deposit_exotic_gases
 	sound = decision_resources
@@ -398,7 +401,7 @@ tt_decision_add_planetary_deposit_exotic_gases = {
 	}
 }
 
-# Adds a Betharian fields deposit to a planet
+### Adds a Betharian fields deposit to a planet
 tt_decision_add_planetary_deposit_betherian_fields = {
 	icon = decision_add_planetary_deposit_betherian_fields
 	sound = decision_resources
@@ -451,7 +454,7 @@ tt_decision_add_planetary_deposit_betherian_fields = {
 }
 
 ## Bonus decision
-# Allows you to replace Mastery of Nature with Worldscaping if you have the civic
+### Allows you to replace Mastery of Nature with Worldscaping if you have the civic
 decision_cultivated_worldscaping_replace_mastery_of_nature = {
 	owned_planets_only = yes
 	sound = event_administrative_work
