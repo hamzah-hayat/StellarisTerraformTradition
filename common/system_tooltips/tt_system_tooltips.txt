@@ -1,0 +1,37 @@
+#root = system
+#from = player
+frozen_terraforming_tooltip = {
+	custom_tooltip = {
+		success_text = has_frozen_terraforming_candidate
+
+		exists = from
+		from = {
+			OR = {
+				has_ascension_perk = ap_hydrocentric
+				has_tradition = "tr_terraform_world_shaper"
+			}
+		}
+
+		any_system_planet = {
+			has_modifier = frozen_terraforming_candidate
+		}
+	}
+}
+
+toxic_terraforming_tooltip = {
+	custom_tooltip = {
+		success_text = has_toxic_terraforming_candidate
+
+		exists = from
+		from = {
+			OR = {
+				has_ascension_perk = ap_detox
+				has_tradition = "tr_terraform_world_shaper"
+			}
+		}
+
+		any_system_planet = {
+			has_modifier = toxic_terraforming_candidate
+		}
+	}
+}
