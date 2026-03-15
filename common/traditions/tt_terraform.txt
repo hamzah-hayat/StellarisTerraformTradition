@@ -9,8 +9,23 @@ tr_terraform_adopt = {
 		planet_clear_blocker_speed_mult = 0.33
 		deposit_blockers_cost_mult = -0.5
 	}
+	
 	on_enabled = {
 		give_next_terraforming_tech_option_effect = yes
+
+		if = {
+			limit = {
+				has_ascension_perk = ap_world_shaper
+			}
+			remove_ascension_perk = ap_world_shaper
+		}
+
+		if = {
+			limit = {
+				has_ascension_perk = ap_detox
+			}
+			remove_ascension_perk = ap_detox
+		}
 	}
 }
 
