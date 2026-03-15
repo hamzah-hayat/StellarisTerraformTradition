@@ -40,6 +40,8 @@ Or install via the Steam workshop.
 - Compatible with most mods that do not alter the same tradition trees or terraforming mechanics.
 - Vanilla file overwrites:
     - Overwrites the "Conquer Nature" agenda to unlock it via the Terraform tradition as well.
+    - Overwrites the system tooltips for frozen_terraforming_tooltip and toxic_terraforming_tooltip, plus the rule has_ascension_for_terraforming_candidate to allow frozen/toxic worlds showing up in GUI
+    - Overrides the World Shaper and Detox perks, to add a condition that does not let you pick them if you already have the Terraform tradition
 
 ## Credits
 - Mod Author: Hamzah Hayat

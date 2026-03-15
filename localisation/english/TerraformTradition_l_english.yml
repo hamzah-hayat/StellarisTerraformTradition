@@ -20,19 +20,24 @@
 
     # Decisions
     tt_decision_add_planetary_deposit_energy:0 "Terraform - Add Energy Deposit"
-    tt_decision_add_planetary_deposit_energy_desc:0 ""
+    tt_decision_add_planetary_deposit_energy_desc:0 "Through advanced terraforming, our empire manipulates planetary crust and atmosphere to create rich energy fields, harnessing the planet's natural power for our needs."
     tt_decision_add_planetary_deposit_minerals:0 "Terraform - Add Mineral Deposit"
-    tt_decision_add_planetary_deposit_minerals_desc:0 ""
+    tt_decision_add_planetary_deposit_minerals_desc:0 "By reshaping geological layers, we can expose and concentrate mineral veins, transforming the planet into a valuable source of raw materials for our industry."
     tt_decision_add_planetary_deposit_food:0 "Terraform - Add Food Deposit"
-    tt_decision_add_planetary_deposit_food_desc:0 ""
+    tt_decision_add_planetary_deposit_food_desc:0 "Advanced climate manipulation allows us to create fertile lands in unlikely places, allowing vast agricultural zones to flourish and sustain our growing population."
     tt_decision_add_planetary_deposit_rare_crystals:0 "Terraform - Add Rare Crystal Deposit"
-    tt_decision_add_planetary_deposit_rare_crystals_desc:0 ""
+    tt_decision_add_planetary_deposit_rare_crystals_desc:0 "We can transform planetary conditions to foster the formation of rare crystals, unlocking new technological and economic opportunities."
     tt_decision_add_planetary_deposit_volatile_motes:0 "Terraform - Add Volatile Motes Deposit"
-    tt_decision_add_planetary_deposit_volatile_motes_desc:0 ""
+    tt_decision_add_planetary_deposit_volatile_motes_desc:0 "Through precise terraforming, certain landscapes can trigger chemical reactions that generate volatile motes, fueling advanced industry and weaponry."
     tt_decision_add_planetary_deposit_exotic_gases:0 "Terraform - Add Exotic Gases Deposit"
-    tt_decision_add_planetary_deposit_exotic_gases_desc:0 ""
+    tt_decision_add_planetary_deposit_exotic_gases_desc:0 "By manipulating local forms of flora and fauna, we can create pockets of exotic gasses, a valuable resource for our scientific endeavours."
     tt_decision_add_planetary_deposit_betherian_fields:0 "Terraform - Add Betherian Fields Deposit"
-    tt_decision_add_planetary_deposit_betherian_fields_desc:0 ""
+    tt_decision_add_planetary_deposit_betherian_fields_desc:0 "We can safely find an asteroid and pull it safely onto the planet's surface, scattering a field of Betherian crystals for us to exploit."
 
     tt_decisions_add_basic_deposit_block_tooltip:0 "You can only add §Yone§! basic deposit to each planet."
     tt_decisions_add_strategic_deposit_block_tooltip:0 "You can only add §Yone§! strategic deposit to each planet."
+
+    decision_cultivated_worldscaping_replace_mastery_of_nature: "$decision_cultivated_worldscaping$"
+    decision_cultivated_worldscaping_replace_mastery_of_nature_desc: "$decision_cultivated_worldscaping_desc$"
+
+    tt_already_has_terraform_tradition:0 "You have already adopted the Terraform Tradition."
