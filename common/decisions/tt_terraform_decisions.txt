@@ -19,9 +19,8 @@ tt_decision_add_planetary_deposit_energy = {
 		owner = {
 			has_tradition = tr_terraform_planet_probing
 		}
-		planet = {
-			NOT = { has_planet_flag = tt_established_basic_deposit }
-		}
+		NOT = { has_planet_flag = tt_established_basic_deposit }
+		habitable_planet_not_urban = yes
 	}
 
 	owned_planets_only = yes
@@ -93,9 +92,8 @@ tt_decision_add_planetary_deposit_minerals = {
 		owner = {
 			has_tradition = tr_terraform_planet_probing
 		}
-		planet = {
-			NOT = { has_planet_flag = tt_established_basic_deposit }
-		}
+		NOT = { has_planet_flag = tt_established_basic_deposit }
+		habitable_planet_not_urban = yes
 	}
 
 	owned_planets_only = yes
@@ -156,9 +154,8 @@ tt_decision_add_planetary_deposit_food = {
 		owner = {
 			has_tradition = tr_terraform_planet_probing
 		}
-		planet = {
-			NOT = { has_planet_flag = tt_established_basic_deposit }
-		}
+		NOT = { has_planet_flag = tt_established_basic_deposit }
+		habitable_planet_not_urban = yes
 	}
 
 	owned_planets_only = yes
@@ -235,10 +232,9 @@ tt_decision_add_planetary_deposit_rare_crystals = {
 		owner = {
 			has_tradition = tr_terraform_planet_probing
 		}
-		planet = {
-			NOT = { is_planet_class = pc_volcanic }
-			NOT = { has_planet_flag = tt_established_strategic_deposit }
-		}
+		NOT = { is_planet_class = pc_volcanic }
+		NOT = { has_planet_flag = tt_established_strategic_deposit }
+		habitable_planet_not_urban = yes
 	}
 
 	allow = {
@@ -302,9 +298,8 @@ tt_decision_add_planetary_deposit_volatile_motes = {
 		owner = {
 			has_tradition = tr_terraform_planet_probing
 		}
-		planet = {
-			NOT = { has_planet_flag = tt_established_strategic_deposit }
-		}
+		NOT = { has_planet_flag = tt_established_strategic_deposit }
+		habitable_planet_not_urban = yes
 	}
 
 	allow = {
@@ -360,9 +355,8 @@ tt_decision_add_planetary_deposit_exotic_gases = {
 		owner = {
 			has_tradition = tr_terraform_planet_probing
 		}
-		planet = {
-			NOT = { has_planet_flag = tt_established_strategic_deposit }
-		}
+		NOT = { has_planet_flag = tt_established_strategic_deposit }
+		habitable_planet_not_urban = yes
 	}
 
 	allow = {
@@ -418,9 +412,8 @@ tt_decision_add_planetary_deposit_betherian_fields = {
 		owner = {
 			has_tradition = tr_terraform_planet_probing
 		}
-		planet = {
-			NOT = { has_planet_flag = tt_established_strategic_deposit }
-		}
+		NOT = { has_planet_flag = tt_established_strategic_deposit }
+		habitable_planet_not_urban = yes
 	}
 
 	allow = {
