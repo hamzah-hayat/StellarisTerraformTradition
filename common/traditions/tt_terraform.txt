@@ -85,7 +85,6 @@ tr_terraform_world_shaper = {
 
 	modifier = {
 		terraforming_cost_mult = -0.25
-		add_attunement_the_composer_of_strands = @ascension_perk_attunement1
 	}
 
 	on_enabled = {
