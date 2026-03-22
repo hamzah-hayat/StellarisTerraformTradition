@@ -45,3 +45,23 @@ This version is built for Stellaris Cetus 4.3.0 (BETA 48b3)
 
 ## Features
     - Add a Cultivated Worldscaping decision that replaces Mastery of Nature on a planet. Basically same effects etc, should be a vanilla thing imo.
+
+
+# 1.1.1
+This version is built for Stellaris Cetus 4.3.1 (f646)
+
+## Fixes
+    - Add a small "glow" to Terraform tradition tile, similar to vanilla ones
+    - Deposit decisions can only be done on habitable planets
+    - Slight loc update to trigger to show failure (for APs World shaper and Detox if you have terraform tradition)
+
+## Changes
+    - Changes to techs granted via the tradition. (Each gives 25% in each tech, if you haven't already got it unlocked)
+        - Adopt gives Terrestrial sculpting
+        - World shaper gives ecological adaptation
+        - Planet restoration gives Climate restortion
+
+## Features
+    - Terraform Tradition finish adds Gaia Master world pref
+        - Doubles Gaia world bonuses for pops that have them
+        - Also removed flat planet bonus from Terraform tradition finish

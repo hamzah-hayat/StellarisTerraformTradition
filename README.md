@@ -9,6 +9,7 @@ Stellaris Terraform Tradition is a mod for Stellaris that introduces a new tradi
 ### Adopt Effects
 - Terraforming Speed: Increases the speed at which you can terraform planets, allowing you to transform barren worlds into habitable ones more quickly.
 - Clearing Blockers: Reduces the time and cost required to clear planetary blockers.
+- Grants Terrestrial Sculpting as a tech option (if not already researched)
 
 ### Finish Effects
 - Planetary Benefits: Provides empire-wide bonuses to planet jobs, population happiness, and logistic growth, similar to Gaia worlds but at a reduced rate.
@@ -18,15 +19,22 @@ Stellaris Terraform Tradition is a mod for Stellaris that introduces a new tradi
 - Basic Resource Efficiency: Increases Job Efficiency for Technicians, Miners and Farmers by a flat 15%.
 
 ### Planet Probing
+- Gives a flat increase to Crystal, Volatile Moles and Exotic gas production by 25%
 - Planetary Deposits: Allows you to create planetary deposits on your worlds, allowing you to further specialise their role.
     - You may create one "Basic" deposit per planet. For Generator, Mining or Agricultural deposits.
     - You may create one "Advanced" deposit per planet. For Rare Crystal, Exotic Gas ,Volatile Mote or Betharian Field deposits. These decisions require the appropriate resource technology first.
 
+### World Shaper
+- Gaia Worlds: Lets you terraform worlds into Gaia worlds
+- Reduces terraform cost by 25%
+- Grants Ecological Adaptation as a tech option (if not already researched)
+
 ### Climate Engineering
-- Speeds up Terraforming speed by 25% and reduces cost of terraforming by 25%.
+- Speeds up terraforming speed by 25% and reduces cost of terraforming by 25%.
 
 ### Planet Restoration
 - Allows you to terraform Toxic and Frozen planets, if you have the climate restoration technology.
+- Grants Climate Restoration as a tech option (if not already researched)
 
 ## Installation - Manual
 1. Download or clone this repository into your Stellaris mods folder.
