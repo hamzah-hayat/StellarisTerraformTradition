@@ -42,7 +42,7 @@
     decision_cultivated_worldscaping_replace_mastery_of_nature: "$decision_cultivated_worldscaping$"
     decision_cultivated_worldscaping_replace_mastery_of_nature_desc: "$decision_cultivated_worldscaping_desc$"
 
-    tt_already_has_terraform_tradition:0 "You have already adopted the Terraform Tradition."
+    tt_already_has_terraform_tradition:0 "$TRIGGER_FAIL$You have already adopted the Terraform Tradition."
 
     # Traits
     trait_pc_gaia_preference_mastery:0 "$trait_pc_gaia_preference$"
