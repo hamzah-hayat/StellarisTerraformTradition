@@ -1,0 +1,19 @@
+# Count number of planets to create in a sector for the "New Worlds" tradition agenda.
+# For every 5 planets in a sector, create 1 new world, rounding up to ensure at least 1 new world per sector.
+tt_new_worlds_number_of_planets_for_sector = {
+	base = 0
+	complex_trigger_modifier = {
+		trigger = count_system_within_border
+		mode = add
+	}
+	divide = 5
+	min = 1 # Always round up to at least 1 planet per sector, otherwise you can end up with 0 planets in small sectors
+}
+
+tt_new_worlds_number_of_systems_in_sector = {
+	base = 0
+	complex_trigger_modifier = {
+		trigger = count_system_within_border
+		mode = add
+	}
+}

@@ -1,24 +1,21 @@
 @base_tradition_agenda_cost = 7000
 
-# Enables the Conquer Nature Agenda for the Terraform tradition
-agenda_conquer_nature = {
+# For each sector in the empire, divide number of systems in that sector by five, plus one.
+# For that many times, pick a random un-habitable planet in a random system in that sector and make it habitable.
+agenda_new_worlds = {
 	agenda_cost = @base_tradition_agenda_cost
 	allow = {
-		OR = {
-			has_tradition = tr_adaptability_adopt
-			has_tradition = tr_terraform_adopt
-		}
+		has_tradition = tr_terraform_adopt
 	}
+
 	potential = {
 		has_paragon_dlc = yes
-		is_machine_empire = no
 	}
-	modifier = {
-		pop_environment_tolerance = 0.05
-		terraform_speed_mult = 0.1
-	}
-	finish_modifier = agenda_conquer_nature_finish
+	
 	effect = {
-		give_next_terraforming_tech_option_effect = yes
+		custom_tooltip = tt_new_worlds_terraform_planets
+		hidden_effect = {
+			country_event = { id = tt_events.1 }
+		}
 	}
 }

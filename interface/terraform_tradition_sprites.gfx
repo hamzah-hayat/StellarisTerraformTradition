@@ -55,4 +55,10 @@ spriteTypes = {
 		name = "GFX_tr_terraform_planet_restoration"
 		textureFile = "gfx/interface/icons/traditions/tr_terraform_planet_restoration.dds"
 	}
+
+	# Agenda
+	spriteType = {
+		name = "GFX_council_agenda_icon_agenda_new_worlds"
+		textureFile = "gfx/interface/icons/agenda_icons/agenda_new_worlds.dds"
+	}
 }

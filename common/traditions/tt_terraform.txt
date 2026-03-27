@@ -1,10 +1,10 @@
 # Terraform Tradition effects/perks
 
 # Adopt
-# Unlock Terraforming Agendas and gives basic terraforming tech
+# Unlock Terraforming Agenda and gives basic terraforming tech
 # Also makes clearing blockers faster and cheaper
 tr_terraform_adopt = {
-	unlocks_agenda = agenda_conquer_nature
+	unlocks_agenda = agenda_new_worlds
 	modifier = {
 		planet_clear_blocker_speed_mult = 0.33
 		deposit_blockers_cost_mult = -0.5

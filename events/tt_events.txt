@@ -1,0 +1,86 @@
+#########################
+
+# Terraform Tradition Events
+
+#########################
+
+namespace = tt_events
+
+country_event = {
+	id = tt_events.1
+	title = "tt_events.1.name"
+	desc = "tt_events.1.desc"
+	picture = GFX_evt_gaia
+	show_sound = event_activating_unknown_technology
+
+	is_triggered_only = yes
+
+	immediate = {
+		# Grab the sector with most owned planets (that we've not done this agenda for)
+		ordered_owned_sector = {
+			limit = {
+				NOT = { has_sector_flag = tt_created_new_worlds }
+			}
+			position = 0
+			order_by = value:tt_new_worlds_number_of_systems_in_sector
+
+			save_event_target_as = new_worlds_sector
+			
+			while = {
+				count = value:tt_new_worlds_number_of_planets_for_sector
+				random_system_within_border = {
+					limit = {
+						any_system_planet = {
+							habitable_planet = no
+							has_anomaly = no
+							is_colonizable = no
+							is_colony = no
+							is_terraforming_candidate = no
+							NOR = {
+								is_planet_class = "pc_broken"
+								is_planet_class = "pc_astral_scar"
+								has_planet_flag = has_megastructure
+							}
+							is_star = no
+						}
+					}
+
+					random_system_planet = {
+						limit = {
+							habitable_planet = no
+							has_anomaly = no
+							is_colonizable = no
+							is_colony = no
+							is_terraforming_candidate = no
+							NOR = {
+								is_planet_class = "pc_broken"
+								is_planet_class = "pc_astral_scar"
+								has_planet_flag = has_megastructure
+							}
+							is_star = no
+						}
+						random_list = {
+							1 = { change_pc = pc_gaia }
+							1 = { change_pc = pc_nuked }
+							2 = { change_pc = pc_tropical }
+							2 = { change_pc = pc_arid }
+							2 = { change_pc = pc_continental }
+							2 = { change_pc = pc_ocean }
+							2 = { change_pc = pc_tundra }
+							2 = { change_pc = pc_arctic }
+							2 = { change_pc = pc_alpine }
+							2 = { change_pc = pc_savannah }
+							2 = { change_pc = pc_desert }
+						}
+						reroll_planet = yes
+					}
+				}
+			}
+			set_sector_flag = tt_created_new_worlds
+		}
+	}
+
+	option = {
+		name = FANTASTIC
+	}
+}

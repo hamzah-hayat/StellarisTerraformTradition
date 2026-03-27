@@ -49,3 +49,13 @@
     trait_pc_gaia_preference_mastery_short:0 "$trait_pc_gaia_preference_short$"
     trait_pc_gaia_preference_mastery_desc:0 "§LClimate preference is determined at the genetic level, and in this case, by mastering the art of terraforming.§!"
     gaia_preference_mastery_trait_tooltip:0 "Pop Output on Gaia Worlds: §G+10%§!\n    - Happiness on Gaia Worlds: §G+10%§!\n    - Population Growth on Gaia Worlds: §G+15%§!"
+
+    # Agendas
+    council_agenda_agenda_new_worlds_name:0 "New Worlds"
+    council_agenda_agenda_new_worlds_desc:0 "With enough patience, even the most barren rocks can be transformed into thriving worlds."
+
+    # Events
+    tt_events.1.name:0 "New Worlds"
+    tt_events.1.desc:0 "We have successfully transformed worlds for habitation in the §Y[new_worlds_sector.GetName]§! sector."
+
+    tt_new_worlds_terraform_planets:0 "For each §Yfive systems§! in the §Ylargest sector§! (by systems), an uninhabitable §Yplanet§! will be  §Yterraformed§!. Each sector can only have this happen once.\n§LNote: Only planets that are not colonizable and are not already terraforming candidates will be transformed.§!"
