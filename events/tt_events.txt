@@ -36,6 +36,7 @@ country_event = {
 							is_colonizable = no
 							is_colony = no
 							is_terraforming_candidate = no
+							planet_size > 12
 							NOR = {
 								is_planet_class = "pc_broken"
 								is_planet_class = "pc_astral_scar"
@@ -52,6 +53,7 @@ country_event = {
 							is_colonizable = no
 							is_colony = no
 							is_terraforming_candidate = no
+							planet_size > 12
 							NOR = {
 								is_planet_class = "pc_broken"
 								is_planet_class = "pc_astral_scar"
