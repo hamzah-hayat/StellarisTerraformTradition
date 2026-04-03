@@ -238,7 +238,12 @@ tt_decision_add_planetary_deposit_rare_crystals = {
 	}
 
 	allow = {
-		owner = { has_technology = tech_rare_crystals }
+		owner = { 
+			OR = {
+				has_technology = tech_mine_rare_crystals
+				has_technology = tech_rare_crystals
+			}
+		}
 	}
 
 	owned_planets_only = yes
@@ -303,7 +308,12 @@ tt_decision_add_planetary_deposit_volatile_motes = {
 	}
 
 	allow = {
-		owner = { has_technology = tech_volatile_motes }
+		owner = { 
+			OR = {
+				has_technology = tech_mine_volatile_motes
+				has_technology = tech_volatile_motes
+			}
+		}
 	}
 
 	owned_planets_only = yes
@@ -360,7 +370,12 @@ tt_decision_add_planetary_deposit_exotic_gases = {
 	}
 
 	allow = {
-		owner = { has_technology = tech_exotic_gases }
+		owner = { 
+			OR = {
+				has_technology = tech_mine_exotic_gases
+				has_technology = tech_exotic_gases
+			}
+		}
 	}
 
 	owned_planets_only = yes
