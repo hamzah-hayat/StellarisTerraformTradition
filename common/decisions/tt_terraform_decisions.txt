@@ -461,6 +461,59 @@ tt_decision_add_planetary_deposit_betherian_fields = {
 	}
 }
 
+### Adds an underground complex (+1 district) to a planet
+tt_decision_add_planetary_deposit_underground_complex = {
+	icon = decision_add_planetary_deposit_underground_complex
+	sound = decision_resources
+
+	enactment_time = 360
+
+	resources = {
+		category = decisions
+		cost = { energy = 3000 }
+	}
+
+	potential = {
+		exists = owner
+		owner = {
+			has_tradition = tr_terraform_planet_probing
+		}
+		NOT = { has_planet_flag = tt_established_strategic_deposit }
+		habitable_planet_not_urban = yes
+	}
+
+	allow = {
+		owner = { 
+			has_technology = tech_planetary_infrastructure_1
+		}
+	}
+
+	owned_planets_only = yes
+
+	on_queued = {
+		planet = {
+			set_planet_flag = tt_established_strategic_deposit
+		}
+	}
+
+	on_unqueued = {
+		planet = {
+			remove_planet_flag = tt_established_strategic_deposit
+		}
+	}
+
+	effect = {
+		planet = {
+			add_deposit = d_tt_underground_complex
+			custom_tooltip = tt_decisions_add_strategic_deposit_block_tooltip
+		}
+	}
+
+	ai_weight = {
+		weight = 10
+	}
+}
+
 ## Bonus decision
 ### Allows you to replace Mastery of Nature with Worldscaping if you have the civic
 decision_cultivated_worldscaping_replace_mastery_of_nature = {

@@ -35,6 +35,8 @@
     tt_decision_add_planetary_deposit_exotic_gases_desc:0 "By manipulating local forms of flora and fauna, we can create pockets of exotic gasses, a valuable resource for our scientific endeavours."
     tt_decision_add_planetary_deposit_betherian_fields:0 "Terraform - Add Betherian Fields Deposit"
     tt_decision_add_planetary_deposit_betherian_fields_desc:0 "We can safely find an asteroid and pull it safely onto the planet's surface, scattering a field of Betherian crystals for us to exploit."
+    tt_decision_add_planetary_deposit_underground_complex:0 "Terraform - Add Underground Complex"
+    tt_decision_add_planetary_deposit_underground_complex_desc:0 "Utilising the latest in infrastructure technology, we can construct a massive underground complex to expand the planet's infrastructure capacity, albeit at a tremendous cost."
 
     tt_decisions_add_basic_deposit_block_tooltip:0 "You can only add §Yone§! basic deposit to each planet."
     tt_decisions_add_strategic_deposit_block_tooltip:0 "You can only add §Yone§! strategic deposit to each planet."
@@ -43,6 +45,10 @@
     decision_cultivated_worldscaping_replace_mastery_of_nature_desc: "$decision_cultivated_worldscaping_desc$"
 
     tt_already_has_terraform_tradition:0 "$TRIGGER_FAIL$You have already adopted the Terraform Tradition."
+
+    # Deposits
+    d_tt_underground_complex:0 "Underground Complex"
+    d_tt_underground_complex_desc:0 "A huge underground complex, built at tremendous cost to ensure the infrastructure needs for any type of work can be met."
 
     # Traits
     trait_pc_gaia_preference_mastery:0 "$trait_pc_gaia_preference$"
