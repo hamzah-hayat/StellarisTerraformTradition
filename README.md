@@ -10,6 +10,8 @@ Stellaris Terraform Tradition is a mod for Stellaris that introduces a new tradi
 - Terraforming Speed: Increases the speed at which you can terraform planets, allowing you to transform barren worlds into habitable ones more quickly.
 - Clearing Blockers: Reduces the time and cost required to clear planetary blockers.
 - Grants Terrestrial Sculpting as a tech option (if not already researched)
+- New Worlds Agenda: New Worlds Agenda creates habitable planets in your largest sector (by system size), one planet is made habitable for each five systems in that sector.
+    Each Sector can only be effected once.
 
 ### Finish Effects
 - Planetary Benefits: Provides empire-wide bonuses to planet jobs, population happiness, and logistic growth, similar to Gaia worlds but at a reduced rate.
@@ -22,7 +24,7 @@ Stellaris Terraform Tradition is a mod for Stellaris that introduces a new tradi
 - Gives a flat increase to Crystal, Volatile Moles and Exotic gas production by 25%
 - Planetary Deposits: Allows you to create planetary deposits on your worlds, allowing you to further specialise their role.
     - You may create one "Basic" deposit per planet. For Generator, Mining or Agricultural deposits.
-    - You may create one "Advanced" deposit per planet. For Rare Crystal, Exotic Gas ,Volatile Mote or Betharian Field deposits. These decisions require the appropriate resource technology first.
+    - You may create one "Advanced" deposit per planet. For Rare Crystal, Exotic Gas ,Volatile Mote or Betharian Field deposits. These decisions require the appropriate resource technology first. Also there is a simple +1 planet size deposit decision.
 
 ### World Shaper
 - Gaia Worlds: Lets you terraform worlds into Gaia worlds

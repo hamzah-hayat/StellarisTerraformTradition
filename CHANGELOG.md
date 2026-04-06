@@ -65,3 +65,28 @@ This version is built for Stellaris Cetus 4.3.1 (f646)
     - Terraform Tradition finish adds Gaia Master world pref
         - Doubles Gaia world bonuses for pops that have them
         - Also removed flat planet bonus from Terraform tradition finish
+
+
+# 1.2.0
+This version is built for Stellaris Cetus 4.3.3 (456f)
+
+## Fixes
+    - Fix Planet probing rare resource modifier
+        - Should have had a 10% increase to Volatile Motes, Rare Crystals and Exotic Gas production, now does!
+
+## Changes
+    - Change allow triggers for strategic resource deposit decisions
+        - Allow both the mining and creation techs for these decisions.
+        - eg Exotic Gas Extraction or Exotic Gas Refining would let you create an Exotic gas deposit.
+
+    - Add some basic AI weights for deicisons, AP perks and terraform tradition picks.
+
+## Features
+    - Add New Worlds Agenda
+        - This agenda creates habitable planets in the largest sector (by system size), can be done once per sector.
+            - Each sector is flagged once done, so will do next largest sector if done again
+        - Creates a habitable planet per 5 systems of that sector, with a minimum of 1 planet created.
+        - Uses existing planetary bodies, will find something between 12 -> 25 (inclusive) size. Some other checks as well
+
+    - Add an Underground Complex deposit
+        - Counts as a strategic deposit, simply adds +1 to max planet districts.
