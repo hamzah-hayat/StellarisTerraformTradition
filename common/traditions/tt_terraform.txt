@@ -46,6 +46,10 @@ tr_terraform_finish = {
 	on_enabled = {
 		custom_tooltip = "tr_terraform_finish_gaia_mastery_unlocked"
 	}
+
+	ai_weight = {
+		factor = 5000
+	}
 }
 
 # Frontier Exploitation
@@ -56,6 +60,10 @@ tr_terraform_frontier_exploitation = {
 		planet_miners_produces_mult = 0.15
 		planet_farmers_produces_mult = 0.15
 		planet_technician_produces_mult = 0.15
+	}
+
+	ai_weight = {
+		factor = 5000
 	}
 }
 
@@ -72,6 +80,10 @@ tr_terraform_planet_probing = {
 	on_enabled = {
 		custom_tooltip = "tr_terraform_create_basic_planetary_deposit"
 		custom_tooltip = "tr_terraform_create_strategic_planetary_deposit"
+	}
+
+	ai_weight = {
+		factor = 1000
 	}
 }
 
@@ -99,6 +111,10 @@ tr_terraform_world_shaper = {
 			}
 		}
 	}
+
+	ai_weight = {
+		factor = 1000
+	}
 }
 
 # Climate Engineering
@@ -107,6 +123,10 @@ tr_terraform_climate_engineering = {
 	modifier = {
 		terraforming_cost_mult = -0.25
 		terraform_speed_mult = 0.25
+	}
+
+	ai_weight = {
+		factor = 1000
 	}
 }
 
@@ -127,5 +147,9 @@ tr_terraform_planet_restoration = {
 				progress = 0.25
 			}
 		}
+	}
+
+	ai_weight = {
+		factor = 1000
 	}
 }
