@@ -54,6 +54,7 @@ ap_world_shaper = {
 				has_origin = origin_shattered_ring
 				has_trait = trait_aquatic
 				has_ethic = ethic_gestalt_consciousness
+				has_tradition = tr_terraform_adopt
 			}
 		}
 		modifier = {
@@ -114,9 +115,12 @@ ap_detox = {
 		factor = 20
 		modifier = {
 			factor = 0
-			NOT = {
-				any_planet_within_border = {
-					has_modifier = toxic_terraforming_candidate
+			OR = {
+				has_tradition = tr_terraform_adopt
+				NOT = {
+					any_planet_within_border = {
+						has_modifier = toxic_terraforming_candidate
+					}
 				}
 			}
 		}
