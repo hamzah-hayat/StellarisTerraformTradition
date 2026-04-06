@@ -72,7 +72,17 @@ tt_decision_add_planetary_deposit_energy = {
 	}
 
 	ai_weight = {
-		weight = 10
+		weight = 1
+		modifier = {
+			factor = 10
+			OR = {
+				has_designation = col_generator
+				AND = {
+					has_district = district_generator
+					num_free_districts = { type = district_generator value < 3 }
+				}
+			}
+		}
 	}
 }
 
@@ -134,7 +144,17 @@ tt_decision_add_planetary_deposit_minerals = {
 	}
 
 	ai_weight = {
-		weight = 10
+		weight = 1
+		modifier = {
+			factor = 10
+			OR = {
+				has_designation = col_mining
+				AND = {
+					has_district = district_mining
+					num_free_districts = { type = district_mining value < 3 }
+				}
+			}
+		}
 	}
 }
 
@@ -209,7 +229,17 @@ tt_decision_add_planetary_deposit_food = {
 	}
 
 	ai_weight = {
-		weight = 10
+		weight = 1
+		modifier = {
+			factor = 10
+			OR = {
+				has_designation = col_farming
+				AND = {
+					has_district = district_farming
+					num_free_districts = { type = district_farming value < 3 }
+				}
+			}
+		}
 	}
 }
 
@@ -282,7 +312,14 @@ tt_decision_add_planetary_deposit_rare_crystals = {
 	}
 
 	ai_weight = {
-		weight = 10
+		weight = 1
+		modifier = {
+			factor = 10
+			OR = {
+				has_designation = col_mining
+				has_monthly_income = { resource = rare_crystals value <= 1 }
+			}
+		}
 	}
 }
 
@@ -344,7 +381,14 @@ tt_decision_add_planetary_deposit_volatile_motes = {
 	}
 
 	ai_weight = {
-		weight = 10
+		weight = 1
+		modifier = {
+			factor = 10
+			OR = {
+				has_designation = col_generator
+				has_monthly_income = { resource = volatile_motes value <= 1 }
+			}
+		}
 	}
 }
 
@@ -406,7 +450,14 @@ tt_decision_add_planetary_deposit_exotic_gases = {
 	}
 
 	ai_weight = {
-		weight = 10
+		weight = 1
+		modifier = {
+			factor = 10
+			OR = {
+				has_designation = col_farming
+				has_monthly_income = { resource = exotic_gases value <= 1 }
+			}
+		}
 	}
 }
 
@@ -563,7 +614,8 @@ decision_cultivated_worldscaping_replace_mastery_of_nature = {
 		}
 	}
 
+	# You would always want to replace Mastery of Nature with Worldscaping, so AI should as well!
 	ai_weight = {
-		weight = 10
+		weight = 100
 	}
 }
