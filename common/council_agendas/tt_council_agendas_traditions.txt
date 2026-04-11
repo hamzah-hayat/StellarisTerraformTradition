@@ -1,6 +1,6 @@
 @base_tradition_agenda_cost = 7000
 
-# For each sector in the empire, divide number of systems in that sector by five, plus one.
+# For each sector in the empire, divide number of systems in that sector by five, with a min of three.
 # For that many times, pick a random un-habitable planet in a random system in that sector and make it habitable.
 agenda_new_worlds = {
 	agenda_cost = @base_tradition_agenda_cost
