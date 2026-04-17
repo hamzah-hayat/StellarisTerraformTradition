@@ -317,7 +317,9 @@ tt_decision_add_planetary_deposit_rare_crystals = {
 			factor = 10
 			OR = {
 				has_designation = col_mining
-				has_monthly_income = { resource = rare_crystals value <= 1 }
+				owner = {
+					has_monthly_income = { resource = rare_crystals value <= 1 }
+				}
 			}
 		}
 	}
@@ -386,7 +388,9 @@ tt_decision_add_planetary_deposit_volatile_motes = {
 			factor = 10
 			OR = {
 				has_designation = col_generator
-				has_monthly_income = { resource = volatile_motes value <= 1 }
+				owner = {
+					has_monthly_income = { resource = volatile_motes value <= 1 }
+				}
 			}
 		}
 	}
@@ -455,7 +459,9 @@ tt_decision_add_planetary_deposit_exotic_gases = {
 			factor = 10
 			OR = {
 				has_designation = col_farming
-				has_monthly_income = { resource = exotic_gases value <= 1 }
+				owner = {
+					has_monthly_income = { resource = exotic_gases value <= 1 }
+				}
 			}
 		}
 	}
