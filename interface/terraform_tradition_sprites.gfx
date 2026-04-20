@@ -61,4 +61,16 @@ spriteTypes = {
 		name = "GFX_council_agenda_icon_agenda_new_worlds"
 		textureFile = "gfx/interface/icons/agenda_icons/agenda_new_worlds.dds"
 	}
+
+	# Ascension perks
+	spriteType = {
+		name = "GFX_ap_tt_creator_of_worlds"
+		texturefile = "gfx/interface/icons/ascension_perks/ap_tt_creator_of_worlds.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_text_tt_creator_of_worlds"
+		texturefile = "gfx/interface/icons/text_icons/ap_tt_creator_of_worlds.dds"
+	}
 }

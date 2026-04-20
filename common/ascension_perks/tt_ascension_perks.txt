@@ -133,3 +133,39 @@ ap_detox = {
 		}
 	}
 }
+
+#################
+# TERRAFORMING ASCENSION PERKS
+#################
+
+ap_tt_creator_of_worlds = {
+	potential = {
+		NOT = {
+			has_ascension_perk = ap_tt_creator_of_worlds
+		}
+	}
+
+	possible = {
+		custom_tooltip = {
+			fail_text = "requires_technology_tech_climate_restoration"
+			has_technology = tech_climate_restoration
+		}
+		custom_tooltip = {
+			fail_text = "requires_ascension_perks_3"
+			num_ascension_perks > 2
+		}
+		custom_tooltip = {
+			fail_text = "tt_requires_terraform_tradition_finish"
+			has_tradition = tr_terraform_finish
+		}
+	}
+
+	on_enabled = {
+		custom_tooltip = "tt_creator_of_worlds_unlock_tooltip"
+	}
+
+	# Player only
+	ai_weight = {
+		factor = 0
+	}
+}

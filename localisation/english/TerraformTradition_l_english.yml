@@ -16,6 +16,7 @@
     tr_terraform_planet_restoration_delayed:0 "Even the most Frozen planets can be thawed, and the most Toxic planets cleansed. We will make them all habitable."
 
     tr_terraform_finish_gaia_mastery_unlocked:0 "You can now add the §YGaia Mastery§! planet preference type via gene tailoring."
+    tr_terraform_finish_creator_of_worlds_unlocked:0 "You can now unlock the §YCreator of Worlds§! ascension perk"
     tr_terraform_create_basic_planetary_deposit:0 "Allows us to create a single basic §Yplanetary deposit§! on our worlds."
     tr_terraform_create_strategic_planetary_deposit:0 "Allows us to create a single strategic §Yplanetary deposit§! on our worlds.\n§YYou must have the appropriate strategic resource technology§!"
     tr_terraform_planet_restoration_unlocked:0 "Allows us to terraform §YToxic§! and §YFrozen§! planets."
@@ -65,3 +66,20 @@
     tt_events.1.desc:0 "We have successfully transformed worlds for habitation in the §Y[new_worlds_sector.GetName]§! sector."
 
     tt_new_worlds_terraform_planets:0 "For each §Yfive systems§! in the §Ylargest sector§! (by systems), an uninhabitable §Yplanet§! will be  §Yterraformed§!. At minimum, §Ythree§! planets will be §Yterraformed§!. Each sector can only be effected once.\n§LNote: Only planets that are not colonizable and are not already terraforming candidates will be transformed.§!"
+
+    # Creator of Worlds Ascension Perk
+    ap_tt_creator_of_worlds:0 "Creator of Worlds"
+    ap_tt_creator_of_worlds_desc:0 "We have mastered the art of reshaping celestial bodies, turning even the most inhospitable worlds into candidates for terraformation."
+    tt_creator_of_worlds_unlock_tooltip:0 "Unlocks the §YMark Terraforming Candidate§! decision on barren, frozen, toxic, and molten planets within your borders.\nUnlocks the §YRepair Shattered World§! decision on broken and shattered planets within your borders. (Requires £engineering_research£ Mega-Engineering technology.)"
+    tt_requires_terraform_tradition_finish:0 "$TRIGGER_FAIL$Requires the £unity£ ['tradition_category:tradition_terraform'] tradition tree."
+
+    # Creator of Worlds Decision
+    tt_decision_creator_of_worlds_mark_candidate:0 "Create Terraforming Candidate"
+    tt_decision_creator_of_worlds_mark_candidate_desc:0 "Our world-shaping expertise allows us to assess and prepare this planetary body for future terraformation, designating it as a viable terraforming candidate."
+    tt_decision_creator_of_worlds_mark_candidate_effect_tooltip:0 "This planet will be marked as a §Yterraforming candidate§!, allowing it to be terraformed into a habitable world."
+
+    # Creator of Worlds - Repair Planet Decision
+    tt_decision_creator_of_worlds_repair_planet:0 "Repair World"
+    tt_decision_creator_of_worlds_repair_planet_desc:0 "Through monumental engineering effort, we can reassemble the fragments of this shattered world, restoring it to a barren but stable planetary body ready for terraformation."
+    tt_decision_creator_of_worlds_repair_planet_effect_tooltip:0 "This planet will be restored to a §Ybarren world§! and marked as a §Yterraforming candidate§!."
+    requires_mega_engineering:0 "$TRIGGER_FAIL$Requires £physics_research£ Mega-Engineering technology."

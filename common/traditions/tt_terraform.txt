@@ -38,6 +38,7 @@ tr_terraform_adopt = {
 
 # Finish
 # Gives you a special Gaia Mastery planet preference type, and an ascension perk point
+# Also unlocks the Creator of Worlds ascension perk
 tr_terraform_finish = {
 	modifier = {
 		ascension_perks_add = 1
@@ -45,6 +46,7 @@ tr_terraform_finish = {
 
 	on_enabled = {
 		custom_tooltip = "tr_terraform_finish_gaia_mastery_unlocked"
+		custom_tooltip = "tr_terraform_finish_creator_of_worlds_unlocked"
 	}
 
 	ai_weight = {

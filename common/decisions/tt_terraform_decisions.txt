@@ -625,3 +625,130 @@ decision_cultivated_worldscaping_replace_mastery_of_nature = {
 		weight = 100
 	}
 }
+
+## Creator of Worlds Decisions
+### Marks any non-habitable planet as a terraforming candidate
+tt_decision_creator_of_worlds_mark_candidate = {
+	icon = decision_terraform
+	sound = decision_resources
+
+	enactment_time = 720
+
+	resources = {
+		category = decisions
+		cost = {
+			energy = 5000
+			influence = 250
+		}
+	}
+
+	potential = {
+		exists = space_owner
+		space_owner = {
+			has_ascension_perk = ap_tt_creator_of_worlds
+		}
+		is_terraforming_candidate = no
+		OR = {
+			is_planet_class = pc_barren
+			is_planet_class = pc_barren_cold
+			is_planet_class = pc_frozen
+			is_planet_class = pc_toxic
+			is_planet_class = pc_molten
+		}
+	}
+
+	effect = {
+		custom_tooltip = tt_decision_creator_of_worlds_mark_candidate_effect_tooltip
+		hidden_effect = {
+			if = {
+				limit = { is_planet_class = pc_toxic }
+				add_modifier = {
+					modifier = toxic_terraforming_candidate
+				}
+			}
+			else_if = {
+				limit = { is_planet_class = pc_frozen }
+				add_modifier = {
+					modifier = frozen_terraforming_candidate
+				}
+			}
+			else = {
+				add_modifier = {
+					modifier = terraforming_candidate
+				}
+			}
+		}
+	}
+
+	# Player only
+	ai_weight = {
+		weight = 0
+	}
+}
+
+### Repairs a broken or shattered planet, restoring it to a barren world with a terraforming candidate modifier
+tt_decision_creator_of_worlds_repair_planet = {
+	icon = decision_satellite_in_orbit
+	sound = event_construction
+
+	enactment_time = 1800
+
+	resources = {
+		category = decisions
+		cost = {
+			energy = 5000
+			influence = 100
+			alloys = 5000
+		}
+	}
+
+	potential = {
+		exists = space_owner
+		space_owner = {
+			has_ascension_perk = ap_tt_creator_of_worlds
+		}
+		OR = {
+			is_planet_class = pc_shattered
+			is_planet_class = pc_shattered_2
+			is_planet_class = pc_broken
+		}
+		NOT = { has_planet_flag = tt_repairing_planet }
+	}
+
+	allow = {
+		space_owner = {
+			custom_tooltip = {
+				fail_text = "requires_technology_tech_climate_restoration"
+				has_technology = tech_climate_restoration
+			}
+			custom_tooltip = {
+				fail_text = "requires_mega_engineering"
+				has_technology = tech_mega_engineering
+			}
+		}
+	}
+
+	on_queued = {
+		set_planet_flag = tt_repairing_planet
+	}
+
+	on_unqueued = {
+		remove_planet_flag = tt_repairing_planet
+	}
+
+	effect = {
+		custom_tooltip = tt_decision_creator_of_worlds_repair_planet_effect_tooltip
+		hidden_effect = {
+			change_pc = pc_barren
+			add_modifier = {
+				modifier = terraforming_candidate
+			}
+			remove_planet_flag = tt_repairing_planet
+		}
+	}
+
+	# Player only
+	ai_weight = {
+		weight = 0
+	}
+}
