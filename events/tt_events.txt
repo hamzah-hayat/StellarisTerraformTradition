@@ -41,6 +41,7 @@ country_event = {
 							NOR = {
 								is_planet_class = "pc_broken"
 								is_planet_class = "pc_astral_scar"
+								is_planet_class = "pc_gas_giant"
 								has_planet_flag = has_megastructure
 							}
 							is_star = no
@@ -59,6 +60,7 @@ country_event = {
 							NOR = {
 								is_planet_class = "pc_broken"
 								is_planet_class = "pc_astral_scar"
+								is_planet_class = "pc_gas_giant"
 								has_planet_flag = has_megastructure
 							}
 							is_star = no
