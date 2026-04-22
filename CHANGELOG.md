@@ -90,3 +90,20 @@ This version is built for Stellaris Cetus 4.3.3 (456f)
 
     - Add an Underground Complex deposit
         - Counts as a strategic deposit, simply adds +1 to max planet districts.
+
+
+# 1.2.1
+This version is built for Stellaris Cetus 4.3.3 (456f)
+
+## Fixes
+    - Gas giants are no longer transformed by New World's agenda
+    - Fix scoping for monthly income check
+
+## Changes
+    - New Worlds agenda now gives a minimum of 3 planets when creating habitable worlds (If sector has less then 15 systems, you will get 3 habitable planets inside it)
+
+## Features
+    - Add Creator of Worlds Ascension Perk
+        - Requires Climate Restoration tech, 3+ ascension perks, and finishing the Terraform tradition tree
+        - Unlocks the "Mark Terraforming Candidate" decision on barren, frozen, toxic, and molten planets
+        - Unlocks the "Repair Shattered World" decision on broken and shattered planets (requires Mega-Engineering tech)

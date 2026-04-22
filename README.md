@@ -16,6 +16,9 @@ Stellaris Terraform Tradition is a mod for Stellaris that introduces a new tradi
 ### Finish Effects
 - Planetary Benefits: Provides empire-wide bonuses to planet jobs, population happiness, and logistic growth, similar to Gaia worlds but at a reduced rate.
 - Ascension Perk: Grants an additional ascension perk point.
+- Unlocks the Creator of Worlds ascension perk
+    - Allows marking barren, frozen, toxic, and molten planets as terraforming candidates
+    - Allows repairing shattered worlds (requires Mega-Engineering tech)
 
 ### Frontier Exploitation
 - Basic Resource Efficiency: Increases Job Efficiency for Technicians, Miners and Farmers by a flat 15%.
