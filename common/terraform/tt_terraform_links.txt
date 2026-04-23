@@ -487,6 +487,37 @@ terraform_link = {
 	}
 }
 
+terraform_link = {
+	from = "pc_volcanic"
+	to = "pc_gaia"
+
+	resources = {
+		category = terraforming
+
+		inline_script = {
+			script = terraform/triggered_costs
+			ENERGY_COST = @highestCost
+			BIOMASS_COST = @highestBiomassCost
+		}
+	}
+
+	inline_script = {
+		script = terraform/wilderness_biomass
+	}
+
+	duration = @highestTime
+
+	potential = {
+		OR = {
+			from = { has_planet_flag = terraform_nucleus_transfixed }
+			AND = {
+				exists = owner
+				has_tradition = "tr_terraform_world_shaper"
+			}
+		}
+	}
+}
+
 ##################
 ## Frozen World ##
 ##################
@@ -1212,6 +1243,46 @@ terraform_link = {
 ################
 ## Toxic World ##
 ################
+
+# Also make a Gaia terraform link
+terraform_link = {
+	from = "pc_toxic"
+	to = "pc_gaia"
+
+	resources = {
+		category = terraforming
+
+		inline_script = {
+			script = terraform/triggered_costs
+			ENERGY_COST = @nukedCost
+			BIOMASS_COST = @nukedBiomassCost
+		}
+	}
+
+	inline_script = {
+		script = terraform/wilderness_biomass 
+	}
+
+	duration = @nukedTime
+
+	potential = {
+		exists = owner
+		from = { has_modifier = toxic_terraforming_candidate }
+	}
+	condition = {
+		has_tradition = "tr_terraform_planet_restoration"
+		has_tradition = "tr_terraform_world_shaper"
+		has_technology = "tech_climate_restoration"
+	}
+
+	effect = {
+		from  = { detox_hangover = yes }
+	}
+
+	ai_weight = {
+		weight = 5
+	}
+}
 
 terraform_link = {
 	from = "pc_toxic"
