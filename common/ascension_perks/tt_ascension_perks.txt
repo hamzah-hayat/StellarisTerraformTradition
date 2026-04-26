@@ -162,6 +162,12 @@ ap_tt_creator_of_worlds = {
 
 	on_enabled = {
 		custom_tooltip = "tt_creator_of_worlds_unlock_tooltip"
+		hidden_effect = {
+			add_modifier = {
+				modifier = tt_creator_of_worlds_gaia_influence_modifier
+				multiplier = value:tt_creator_of_worlds_gaia_influence
+			}
+		}
 	}
 
 	# Player only

@@ -1,0 +1,9 @@
+# Terraform Tradition On Actions
+
+# Recalculate the Creator of Worlds Gaia influence modifier monthly.
+# This ensures the bonus stays accurate as Gaia planets are colonised or lost.
+on_monthly_pulse_country = {
+	events = {
+		tt_events.2		# Creator of Worlds - recalculate Gaia influence modifier
+	}
+}

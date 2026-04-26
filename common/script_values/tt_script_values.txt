@@ -1,3 +1,21 @@
+# Influence per colonised Gaia planet for the Creator of Worlds ascension perk.
+# Returns 0.1 per owned colonised Gaia planet.
+tt_creator_of_worlds_gaia_influence = {
+	base = 0
+	complex_trigger_modifier = {
+		trigger = count_owned_planet
+		trigger_scope = owner
+		parameters = {
+			limit = {
+				is_planet_class = pc_gaia
+				is_colony = yes
+			}
+		}
+		mult = 0.1
+		mode = add
+	}
+}
+
 # Count number of planets to create in a sector for the "New Worlds" tradition agenda.
 # For every 5 planets in a sector, create 1 new world, Min of at least 3 new worlds per sector.
 tt_new_worlds_number_of_planets_for_sector = {

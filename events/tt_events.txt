@@ -90,3 +90,21 @@ country_event = {
 		name = FANTASTIC
 	}
 }
+
+country_event = {
+	id = tt_events.2
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_ascension_perk = ap_tt_creator_of_worlds
+	}
+
+	immediate = {
+		remove_modifier = tt_creator_of_worlds_gaia_influence_modifier
+		add_modifier = {
+			modifier = tt_creator_of_worlds_gaia_influence_modifier
+			multiplier = value:tt_creator_of_worlds_gaia_influence
+		}
+	}
+}

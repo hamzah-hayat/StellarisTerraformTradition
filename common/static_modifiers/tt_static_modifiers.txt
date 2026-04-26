@@ -1,0 +1,6 @@
+# Static modifier applied by the Creator of Worlds ascension perk.
+# Grants influence based on the number of colonised Gaia planets owned.
+# This modifier is recalculated monthly via on_actions.
+tt_creator_of_worlds_gaia_influence_modifier = {
+	country_traditions_influence_produces_add = 1
+}

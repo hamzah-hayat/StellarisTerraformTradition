@@ -70,7 +70,9 @@
     # Creator of Worlds Ascension Perk
     ap_tt_creator_of_worlds:0 "Creator of Worlds"
     ap_tt_creator_of_worlds_desc:0 "We have mastered the art of reshaping celestial bodies, turning even the most inhospitable worlds into candidates for terraformation."
-    tt_creator_of_worlds_unlock_tooltip:0 "Unlocks the §YMark Terraforming Candidate§! decision on barren, frozen, toxic, and molten planets within your borders.\nUnlocks the §YRepair Shattered World§! decision on broken and shattered planets within your borders. (Requires £engineering_research£ Mega-Engineering technology.)"
+    tt_creator_of_worlds_unlock_tooltip:0 "Unlocks the §YMark Terraforming Candidate§! decision on barren, frozen, toxic, and molten planets within your borders.\nUnlocks the §YRepair Shattered World§! decision on broken and shattered planets within your borders. (Requires £engineering_research£ Mega-Engineering technology.)\nGain £influence£ §G+0.1§! per §Ycolonized Gaia planet§!."
+    tt_creator_of_worlds_gaia_influence_modifier:0 "Gaia World Influence"
+    tt_creator_of_worlds_gaia_influence_modifier_desc:0 "Each §KGaia§! world colonized by our empire proves our mastery over Terraforming.\n§T(Gain £influence£ +0.1 per colonized Gaia planet.)§!"
     tt_requires_terraform_tradition_finish:0 "$TRIGGER_FAIL$Requires the £unity£ ['tradition_category:tradition_terraform'] tradition tree."
 
     # Creator of Worlds Decision
