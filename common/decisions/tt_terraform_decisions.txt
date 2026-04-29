@@ -632,8 +632,6 @@ tt_decision_creator_of_worlds_mark_candidate = {
 	icon = decision_terraform
 	sound = decision_resources
 
-	enactment_time = 720
-
 	resources = {
 		category = decisions
 		cost = {
@@ -690,8 +688,6 @@ tt_decision_creator_of_worlds_mark_candidate = {
 tt_decision_creator_of_worlds_repair_planet = {
 	icon = decision_satellite_in_orbit
 	sound = event_construction
-
-	enactment_time = 1800
 
 	resources = {
 		category = decisions
