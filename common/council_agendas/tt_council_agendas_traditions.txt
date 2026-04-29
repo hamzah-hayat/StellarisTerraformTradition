@@ -4,12 +4,15 @@
 # For that many times, pick a random un-habitable planet in a random system in that sector and make it habitable.
 agenda_new_worlds = {
 	agenda_cost = @base_tradition_agenda_cost
-	allow = {
-		has_tradition = tr_terraform_adopt
-	}
-
 	potential = {
 		has_paragon_dlc = yes
+	}
+
+	allow = {
+		has_tradition = tr_terraform_adopt
+		any_owned_sector = {
+			NOT = { has_sector_flag = tt_created_new_worlds }
+		}
 	}
 	
 	effect = {
