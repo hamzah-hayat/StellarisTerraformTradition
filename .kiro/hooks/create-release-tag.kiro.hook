@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "name": "Create Release",
+  "description": "Updates the CHANGELOG.md, README.md version badge, and descriptor.mod version field with the provided release number, then creates a git commit and tags it with the version. Triggered manually when you're ready to cut a release.",
+  "version": "1",
+  "when": {
+    "type": "userTriggered"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "The user is cutting a new release. Ask the user for the new version number (e.g. \"1.0.7\"). Once provided, perform the following steps in the LuminaryExpanded workspace folder:\n\n1. **descriptor.mod** — Update the `version=\"X.X.X\"` line to the new version number.\n2. **README.md** — Update the version badge (`![Version](https://img.shields.io/badge/Version-X.X.X-green)`) to the new version number. Also update any changes that were made to the README.\n3. **CHANGELOG.md** — Add a new section at the TOP of the file with the format:\n4. **README_STEAM.md** and **CHANGELOG_STEAM.md** — Using README.MD and CHANGELOG.MD as base, use the Steam BBcode formatting and create/update these files to match.\n   ```\n   [h1]X.X.X[/h1]\n   This version was built and tested with Stellaris Cetus 4.3.X (checksum)\n\n   [h2]Fixes[/h2]\n   [list]\n   [*] \n   [/list]\n\n   [h2]Changes[/h2]\n   [list]\n   [*] \n   [/list]\n\n   [h2]Features[/h2]\n   [list]\n   [*] \n   [/list]\n   ```\n   Check the Git log from now to the last git tag and use those changes to fill out the fixes/changes/features. Be descriptive in the changelog.\n4. **Git commit** — Stage the three modified files and create a commit with the message: `Release vX.X.X`\n5. **Git tag** — Tag the commit with `vX.X.X`\n\nDo NOT push to remote. The user will push when ready."
+  },
+  "workspaceFolderName": "StellarisTerraformTradition",
+  "shortName": "create-release-tag"
+}

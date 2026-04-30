@@ -3,7 +3,7 @@
 > **A tradition tree mod for Stellaris focused on terraforming, planetary management, and creating Gaia worlds.**
 
 ![Stellaris](https://img.shields.io/badge/Stellaris-v4.3.*-blue)
-![Version](https://img.shields.io/badge/Version-1.2.1-green)
+![Version](https://img.shields.io/badge/Version-1.2.2-green)
 
 ![Stellaris Terraform Tradition Image](https://github.com/hamzah-hayat/StellarisTerraformTradition/raw/master/thumbnail.png "Stellaris Terraform Tradition Image")
 
@@ -29,6 +29,7 @@ Stellaris Terraform Tradition introduces a new tradition tree focused on terrafo
 - Unlocks the Creator of Worlds ascension perk
     - Allows marking barren, frozen, toxic, and molten planets as terraforming candidates
     - Allows repairing shattered worlds (requires Mega-Engineering tech)
+    - Grants +0.1 influence per colonized Gaia planet (recalculated monthly)
 
 ### ⛏️ Frontier Exploitation
 - Basic Resource Efficiency: Increases Job Efficiency for Technicians, Miners and Farmers by a flat 15%.
@@ -40,7 +41,7 @@ Stellaris Terraform Tradition introduces a new tradition tree focused on terrafo
     - You may create one "Advanced" deposit per planet. For Rare Crystal, Exotic Gas ,Volatile Mote or Betharian Field deposits. These decisions require the appropriate resource technology first. Also there is a simple +1 planet size deposit decision.
 
 ### 🌍 World Shaper
-- Gaia Worlds: Lets you terraform worlds into Gaia worlds
+- Gaia Worlds: Lets you terraform worlds into Gaia worlds (including Volcanic, Hive, Machine, Nanotech, and Nanite worlds)
 - Reduces terraform cost by 25%
 - Grants Ecological Adaptation as a tech option (if not already researched)
 

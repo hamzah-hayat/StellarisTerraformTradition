@@ -1,70 +1,33 @@
-# 1.0.0
-This version is built for Stellaris Cetus 4.3.0 (BETA 48b3)
+# 1.2.2
+This version is built for Stellaris Cetus v4.3.5 (df6e)
 
 ## Fixes
-    - N/A
+    - New Worlds agenda now correctly checks that at least one sector has not already been used, preventing re-selection of already-processed sectors
+    - Mark Terraforming Candidate and Repair Shattered World decisions are now instant (removed enactment time)
 
 ## Changes
-    - N/A
+    - Creator of Worlds ascension perk now grants +0.1 influence per colonized Gaia planet (recalculated monthly via on_action event)
 
 ## Features
-    - Initial Release
+    - Added Gaia terraform links for Volcanic, Hive, Machine, Nanotech, and Nanite worlds (requires World Shaper tradition and Climate Restoration tech where appropriate)
+    - Added direct Toxic → Gaia terraform link (requires Planet Restoration, World Shaper, and Climate Restoration)
 
 
-# 1.0.1
-This version is built for Stellaris Cetus 4.3.0 (BETA 48b3)
+# 1.2.1
+This version is built for Stellaris Cetus 4.3.3 (456f)
 
 ## Fixes
-    - Fix Deposit decisions completely, turns out they needed some testing
-    - Fix Tooltip for Planet Restoration
+    - Gas giants are no longer transformed by New World's agenda
+    - Fix scoping for monthly income check
 
 ## Changes
-    - N/A
+    - New Worlds agenda now gives a minimum of 3 planets when creating habitable worlds (If sector has less then 15 systems, you will get 3 habitable planets inside it)
 
 ## Features
-    - N/A
-
-
-# 1.0.2
-This version is built for Stellaris Cetus 4.3.0 (BETA 48b3)
-
-## Fixes
-    - Fix Deposit decisions tooltips and icons
-
-
-# 1.1.0
-This version is built for Stellaris Cetus 4.3.0 (BETA 48b3)
-
-## Fixes
-    - Make sure World shaper tradition perk works correctly (allows you to see Toxic planets and terraform them)
-    - Change deposit decisions to (on queue/unqueue) change the planet flag to remove other decisions of the same type (basic/strategic deposit)
-
-## Changes
-    - Overwrite Detox and Worldshaper to stop you being able to pick them if you have started the Terraform tradition, also removes said perks on starting Terraform tradition (If you already had them).
-    - Update Localization for deposit decisions
-
-## Features
-    - Add a Cultivated Worldscaping decision that replaces Mastery of Nature on a planet. Basically same effects etc, should be a vanilla thing imo.
-
-
-# 1.1.1
-This version is built for Stellaris Cetus 4.3.1 (f646)
-
-## Fixes
-    - Add a small "glow" to Terraform tradition tile, similar to vanilla ones
-    - Deposit decisions can only be done on habitable planets
-    - Slight loc update to trigger to show failure (for APs World shaper and Detox if you have terraform tradition)
-
-## Changes
-    - Changes to techs granted via the tradition. (Each gives 25% in each tech, if you haven't already got it unlocked)
-        - Adopt gives Terrestrial sculpting
-        - World shaper gives ecological adaptation
-        - Planet restoration gives Climate restortion
-
-## Features
-    - Terraform Tradition finish adds Gaia Master world pref
-        - Doubles Gaia world bonuses for pops that have them
-        - Also removed flat planet bonus from Terraform tradition finish
+    - Add Creator of Worlds Ascension Perk
+        - Requires Climate Restoration tech, 3+ ascension perks, and finishing the Terraform tradition tree
+        - Unlocks the "Mark Terraforming Candidate" decision on barren, frozen, toxic, and molten planets
+        - Unlocks the "Repair Shattered World" decision on broken and shattered planets (requires Mega-Engineering tech)
 
 
 # 1.2.0
@@ -92,18 +55,70 @@ This version is built for Stellaris Cetus 4.3.3 (456f)
         - Counts as a strategic deposit, simply adds +1 to max planet districts.
 
 
-# 1.2.1
-This version is built for Stellaris Cetus 4.3.3 (456f)
+# 1.1.1
+This version is built for Stellaris Cetus 4.3.1 (f646)
 
 ## Fixes
-    - Gas giants are no longer transformed by New World's agenda
-    - Fix scoping for monthly income check
+    - Add a small "glow" to Terraform tradition tile, similar to vanilla ones
+    - Deposit decisions can only be done on habitable planets
+    - Slight loc update to trigger to show failure (for APs World shaper and Detox if you have terraform tradition)
 
 ## Changes
-    - New Worlds agenda now gives a minimum of 3 planets when creating habitable worlds (If sector has less then 15 systems, you will get 3 habitable planets inside it)
+    - Changes to techs granted via the tradition. (Each gives 25% in each tech, if you haven't already got it unlocked)
+        - Adopt gives Terrestrial sculpting
+        - World shaper gives ecological adaptation
+        - Planet restoration gives Climate restortion
 
 ## Features
-    - Add Creator of Worlds Ascension Perk
-        - Requires Climate Restoration tech, 3+ ascension perks, and finishing the Terraform tradition tree
-        - Unlocks the "Mark Terraforming Candidate" decision on barren, frozen, toxic, and molten planets
-        - Unlocks the "Repair Shattered World" decision on broken and shattered planets (requires Mega-Engineering tech)
+    - Terraform Tradition finish adds Gaia Master world pref
+        - Doubles Gaia world bonuses for pops that have them
+        - Also removed flat planet bonus from Terraform tradition finish
+
+
+# 1.1.0
+This version is built for Stellaris Cetus 4.3.0 (BETA 48b3)
+
+## Fixes
+    - Make sure World shaper tradition perk works correctly (allows you to see Toxic planets and terraform them)
+    - Change deposit decisions to (on queue/unqueue) change the planet flag to remove other decisions of the same type (basic/strategic deposit)
+
+## Changes
+    - Overwrite Detox and Worldshaper to stop you being able to pick them if you have started the Terraform tradition, also removes said perks on starting Terraform tradition (If you already had them).
+    - Update Localization for deposit decisions
+
+## Features
+    - Add a Cultivated Worldscaping decision that replaces Mastery of Nature on a planet. Basically same effects etc, should be a vanilla thing imo.
+
+
+# 1.0.2
+This version is built for Stellaris Cetus 4.3.0 (BETA 48b3)
+
+## Fixes
+    - Fix Deposit decisions tooltips and icons
+
+
+# 1.0.1
+This version is built for Stellaris Cetus 4.3.0 (BETA 48b3)
+
+## Fixes
+    - Fix Deposit decisions completely, turns out they needed some testing
+    - Fix Tooltip for Planet Restoration
+
+## Changes
+    - N/A
+
+## Features
+    - N/A
+
+
+# 1.0.0
+This version is built for Stellaris Cetus 4.3.0 (BETA 48b3)
+
+## Fixes
+    - N/A
+
+## Changes
+    - N/A
+
+## Features
+    - Initial Release

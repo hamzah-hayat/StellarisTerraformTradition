@@ -12,10 +12,22 @@ Stellaris Terraform Tradition introduces a new tradition tree focused on terrafo
 
 [h3]🌱 Adopt Effects[/h3]
 [list]
-[*] Blocker Clear time: Reduces blocker clear time by 33%
-[*] Blocker cost: Reduces blocker clear cost by 50%
+[*] Terraforming Speed: Increases the speed at which you can terraform planets, allowing you to transform barren worlds into habitable ones more quickly.
+[*] Clearing Blockers: Reduces the time and cost required to clear planetary blockers.
 [*] Grants Terrestrial Sculpting as a tech option (if not already researched)
 [*] New Worlds Agenda: New Worlds Agenda creates habitable planets in your largest sector (by system size), one planet is made habitable for each five systems in that sector. Each Sector can only be effected once.
+[/list]
+
+[h3]⚙️ Finish Effects[/h3]
+[list]
+[*] Planetary Benefits: Provides empire-wide bonuses to planet jobs, population happiness, and logistic growth, similar to Gaia worlds but at a reduced rate.
+[*] Ascension Perk: Grants an additional ascension perk point.
+[*] Unlocks the Creator of Worlds ascension perk
+[list]
+[*] Allows marking barren, frozen, toxic, and molten planets as terraforming candidates
+[*] Allows repairing shattered worlds (requires Mega-Engineering tech)
+[*] Grants +0.1 influence per colonized Gaia planet (recalculated monthly)
+[/list]
 [/list]
 
 [h3]⛏️ Frontier Exploitation[/h3]
@@ -25,7 +37,7 @@ Stellaris Terraform Tradition introduces a new tradition tree focused on terrafo
 
 [h3]🔭 Planet Probing[/h3]
 [list]
-[*] Strategic Resources Production: Increases production of Rare Crystals, Exotic Gases and Volatile Motes by 10%
+[*] Gives a flat increase to Crystal, Volatile Moles and Exotic gas production by 25%
 [*] Planetary Deposits: Allows you to create planetary deposits on your worlds, allowing you to further specialise their role.
 [list]
 [*] You may create one "Basic" deposit per planet. For Generator, Mining or Agricultural deposits.
@@ -35,30 +47,20 @@ Stellaris Terraform Tradition introduces a new tradition tree focused on terrafo
 
 [h3]🌍 World Shaper[/h3]
 [list]
-[*] Gaia Worlds: Lets you terraform worlds into Gaia worlds
+[*] Gaia Worlds: Lets you terraform worlds into Gaia worlds (including Volcanic, Hive, Machine, Nanotech, and Nanite worlds)
 [*] Reduces terraform cost by 25%
 [*] Grants Ecological Adaptation as a tech option (if not already researched)
 [/list]
+
 [h3]🌡️ Climate Engineering[/h3]
 [list]
-[*] Terraform Efficiency: Speeds up Terraforming speed by 25% and reduces cost of terraforming by 25%.
+[*] Terraform Efficiency: Speeds up terraforming speed by 25% and reduces cost of terraforming by 25%.
 [/list]
 
 [h3]❄️ Planet Restoration[/h3]
 [list]
 [*] Barren/Toxic/Frozen Restoration: Allows you to terraform Toxic and Frozen planets, if you have the climate restoration technology.
 [*] Grants Climate Restoration as a tech option (if not already researched)
-[/list]
-
-[h3]⚙️ Finish Effects[/h3]
-[list]
-[*] Gaia Mastery: Grants the Gaia Mastery Planet preference, pops with this planet preference have double Gaia world bonuses when on Gaia planets. The bonuses are 10% job efficiency, 10% happiness and 15% pop growth speed.
-[*] Ascension Perk: Grants an additional ascension perk point.
-[*] Unlocks the Creator of Worlds ascension perk
-[list]
-[*] Allows marking barren, frozen, toxic, and molten planets as terraforming candidates
-[*] Allows repairing shattered worlds (requires Mega-Engineering tech)
-[/list]
 [/list]
 
 [hr][/hr]
@@ -69,7 +71,9 @@ Stellaris Terraform Tradition introduces a new tradition tree focused on terrafo
 [*] Compatible with most mods that do not alter the same tradition trees or terraforming mechanics.
 [*] Vanilla file overwrites:
 [list]
-[*] Overwrites the AP perks World Shaper and Detox, to stop you from getting them if you have the terraform tradition.
+[*] Overwrites the "Conquer Nature" agenda to unlock it via the Terraform tradition as well.
+[*] Overwrites the system tooltips for frozen_terraforming_tooltip and toxic_terraforming_tooltip, plus the rule has_ascension_for_terraforming_candidate to allow frozen/toxic worlds showing up in GUI
+[*] Overrides the World Shaper and Detox perks, to add a condition that does not let you pick them if you already have the Terraform tradition
 [/list]
 [/list]
 
