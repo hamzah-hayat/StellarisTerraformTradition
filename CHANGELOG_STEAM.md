@@ -10,14 +10,12 @@ This version is built for Stellaris Cetus v4.3.5 (df6e)
 [h2]Changes[/h2]
 [list]
 [*] Creator of Worlds ascension perk now grants +0.1 influence per colonized Gaia planet (recalculated monthly via on_action event)
-[*] README overhauled with badges, emoji section headers, Steam Workshop link, and improved formatting
 [/list]
 
 [h2]Features[/h2]
 [list]
 [*] Added Gaia terraform links for Volcanic, Hive, Machine, Nanotech, and Nanite worlds (requires World Shaper tradition and Climate Restoration tech where appropriate)
 [*] Added direct Toxic → Gaia terraform link (requires Planet Restoration, World Shaper, and Climate Restoration)
-[*] New static modifier and script value system for Creator of Worlds Gaia influence bonus
 [/list]
 
 
