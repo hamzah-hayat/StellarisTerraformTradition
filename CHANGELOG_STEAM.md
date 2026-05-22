@@ -1,3 +1,26 @@
+[h1]1.2.3[/h1]
+This version is built for Stellaris Cetus v4.3.7 (4f3c)
+
+[h2]Fixes[/h2]
+[list]
+[*] N/A
+[/list]
+
+[h2]Changes[/h2]
+[list]
+[*] N/A
+[/list]
+
+[h2]Features[/h2]
+[list]
+[*] Added AI-translated localisation for 9 additional languages: Brazilian Portuguese, French, German, Japanese, Korean, Polish, Russian, Simplified Chinese, and Spanish
+[list]
+[*] All in-game text (traditions, decisions, ascension perks, agendas, modifiers, tooltips, and events) is now available in these languages
+[*] English remains the source-of-truth localisation; translations may be refined over time
+[/list]
+[/list]
+
+
 [h1]1.2.2[/h1]
 This version is built for Stellaris Cetus v4.3.5 (df6e)
 

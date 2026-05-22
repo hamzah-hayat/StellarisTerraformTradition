@@ -3,7 +3,7 @@
 > **A tradition tree mod for Stellaris focused on terraforming, planetary management, and creating Gaia worlds.**
 
 ![Stellaris](https://img.shields.io/badge/Stellaris-v4.3.*-blue)
-![Version](https://img.shields.io/badge/Version-1.2.2-green)
+![Version](https://img.shields.io/badge/Version-1.2.3-green)
 
 ![Stellaris Terraform Tradition Image](https://github.com/hamzah-hayat/StellarisTerraformTradition/raw/master/thumbnail.png "Stellaris Terraform Tradition Image")
 
@@ -60,6 +60,22 @@ Stellaris Terraform Tradition introduces a new tradition tree focused on terrafo
 3. Enable "Stellaris Terraform Tradition" in your Stellaris launcher.
 
 Or install via the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3683266184).
+
+---
+
+## Localisation
+The mod is fully localised in English, with AI-translated localisation provided for the following languages:
+- Brazilian Portuguese
+- French
+- German
+- Japanese
+- Korean
+- Polish
+- Russian
+- Simplified Chinese
+- Spanish
+
+If you spot a translation issue, contributions and corrections are welcome.
 
 ---
 

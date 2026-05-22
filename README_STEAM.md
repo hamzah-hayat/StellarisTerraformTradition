@@ -79,6 +79,23 @@ Stellaris Terraform Tradition introduces a new tradition tree focused on terrafo
 
 [hr][/hr]
 
+[h2]Localisation[/h2]
+The mod is fully localised in English, with AI-translated localisation provided for the following languages:
+[list]
+[*] Brazilian Portuguese
+[*] French
+[*] German
+[*] Japanese
+[*] Korean
+[*] Polish
+[*] Russian
+[*] Simplified Chinese
+[*] Spanish
+[/list]
+If you spot a translation issue, contributions and corrections are welcome.
+
+[hr][/hr]
+
 [h2]Credits[/h2]
 [list]
 [*] [b]Mod Author:[/b] Hamzah Hayat
