@@ -1,0 +1,87 @@
+﻿l_japanese:
+    # Tradition
+    tradition_terraform:99 "テラフォーミング"
+    tradition_terraform_desc:99 "我々は銀河を、一つずつ惑星を変えながら、故郷へと変えていく。"
+    tr_terraform_adopt:99 "テラフォーミングの伝統"
+    tr_terraform_finish:99 "テラフォーミングの極意"
+    tr_terraform_frontier_exploitation:99 "辺境開発"
+    tr_terraform_frontier_exploitation_delayed:99 "資源採取の基本を習得すれば、来る年月にわたって配当をもたらすだろう。"
+    tr_terraform_planet_probing:99 "惑星探査"
+    tr_terraform_planet_probing_delayed:99 "高度なプローブ群で各惑星を徹底的に調査すれば、見落とされた場所からも資源を見つけ出せる。"
+    tr_terraform_world_shaper:99 "ワールドシェイパー"
+    tr_terraform_world_shaper_delayed:99 "ガイア・ワールドはあらゆる生物にとっての究極の目標である。"
+    tr_terraform_climate_engineering:99 "気候工学"
+    tr_terraform_climate_engineering_delayed:99 "気候工学の専門知識により、これまで以上に速く惑星をテラフォーミングできるようになる。"
+    tr_terraform_planet_restoration:99 "惑星修復"
+    tr_terraform_planet_restoration_delayed:99 "最も凍てついた惑星でも溶かすことができ、最も毒性の高い惑星でも浄化できる。我々はそのすべてを居住可能にする。"
+
+    tr_terraform_finish_gaia_mastery_unlocked:99 "遺伝子調整により、§Yガイア・マスタリー§!の惑星選好タイプを追加できるようになる。"
+    tr_terraform_finish_creator_of_worlds_unlocked:99 "アセンションパーク§Y世界の創造者§!を解禁できるようになる。"
+    tr_terraform_create_basic_planetary_deposit:99 "我々の惑星上に基本的な§Y惑星資源§!を1つ生成できる。"
+    tr_terraform_create_strategic_planetary_deposit:99 "我々の惑星上に戦略的な§Y惑星資源§!を1つ生成できる。\n§Y対応する戦略資源技術を保有している必要がある§!"
+    tr_terraform_planet_restoration_unlocked:99 "§Y毒性§!惑星および§Y凍結§!惑星をテラフォーミングできるようになる。"
+
+    # Decisions
+    tt_decision_add_planetary_deposit_energy:99 "テラフォーミング - エネルギー資源を追加"
+    tt_decision_add_planetary_deposit_energy_desc:99 "高度なテラフォーミングにより、我が帝国は惑星の地殻と大気を操作して豊かなエネルギー場を作り出し、惑星固有の力を我々の用途のために活用する。"
+    tt_decision_add_planetary_deposit_minerals:99 "テラフォーミング - 鉱物資源を追加"
+    tt_decision_add_planetary_deposit_minerals_desc:99 "地質層を作り変えることで、鉱脈を露出させ集中させることができ、惑星を我々の産業にとって貴重な原料源へと変える。"
+    tt_decision_add_planetary_deposit_food:99 "テラフォーミング - 食料資源を追加"
+    tt_decision_add_planetary_deposit_food_desc:99 "高度な気候操作により、思いもよらぬ場所に肥沃な土地を作り出し、広大な農業地帯を栄えさせて成長する人口を養うことができる。"
+    tt_decision_add_planetary_deposit_rare_crystals:99 "テラフォーミング - レアクリスタル資源を追加"
+    tt_decision_add_planetary_deposit_rare_crystals_desc:99 "惑星の状態を変容させて希少なクリスタルの形成を促し、新たな技術的・経済的な機会を切り拓くことができる。"
+    tt_decision_add_planetary_deposit_volatile_motes:99 "テラフォーミング - 揮発性微粒子資源を追加"
+    tt_decision_add_planetary_deposit_volatile_motes_desc:99 "精密なテラフォーミングにより、特定の地形で化学反応を引き起こし、揮発性微粒子を生み出して、先進産業や兵器の燃料とすることができる。"
+    tt_decision_add_planetary_deposit_exotic_gases:99 "テラフォーミング - 特殊ガス資源を追加"
+    tt_decision_add_planetary_deposit_exotic_gases_desc:99 "現地の動植物を操作することで、特殊ガスのポケットを作り出すことができ、これは我々の科学的事業にとって貴重な資源となる。"
+    tt_decision_add_planetary_deposit_betherian_fields:99 "テラフォーミング - ベセリアン・フィールド資源を追加"
+    tt_decision_add_planetary_deposit_betherian_fields_desc:99 "小惑星を安全に見つけ出して惑星の表面に降ろし、ベセリアン・クリスタルの大地を散布して活用することができる。"
+    tt_decision_add_planetary_deposit_underground_complex:99 "テラフォーミング - 地下コンプレックスを追加"
+    tt_decision_add_planetary_deposit_underground_complex_desc:99 "最新のインフラ技術を活用して、巨大な地下コンプレックスを建設し、惑星のインフラ容量を拡張する。ただし、その代償は計り知れない。"
+
+    tt_decisions_add_basic_deposit_block_tooltip:99 "各惑星に追加できる基本資源は§Y1つだけ§!である。"
+    tt_decisions_add_strategic_deposit_block_tooltip:99 "各惑星に追加できる戦略資源は§Y1つだけ§!である。"
+
+    decision_cultivated_worldscaping_replace_mastery_of_nature:99 "$decision_cultivated_worldscaping$"
+    decision_cultivated_worldscaping_replace_mastery_of_nature_desc:99 "$decision_cultivated_worldscaping_desc$"
+
+    tt_already_has_terraform_tradition:99 "$TRIGGER_FAIL$あなたは既にテラフォーミングの伝統を採用している。"
+
+    # Deposits
+    d_tt_underground_complex:99 "地下コンプレックス"
+    d_tt_underground_complex_desc:99 "あらゆる種類の業務に必要なインフラを満たすため、莫大な費用をかけて建設された巨大な地下コンプレックス。"
+
+    # Traits
+    trait_pc_gaia_preference_mastery:99 "$trait_pc_gaia_preference$"
+    trait_pc_gaia_preference_mastery_short:99 "$trait_pc_gaia_preference_short$"
+    trait_pc_gaia_preference_mastery_desc:99 "§L気候選好は遺伝子レベルで決定されるが、この場合はテラフォーミングの技を極めることによって決まる。§!"
+    gaia_preference_mastery_trait_tooltip:99 "ガイア・ワールドでのポップ産出量: §G+10%§!\n    - ガイア・ワールドでの幸福度: §G+10%§!\n    - ガイア・ワールドでの人口増加: §G+15%§!"
+
+    # Agendas
+    council_agenda_agenda_new_worlds_name:99 "新世界"
+    council_agenda_agenda_new_worlds_desc:99 "十分な忍耐があれば、最も荒涼とした岩塊でさえ繁栄する世界へと変えることができる。"
+
+    # Events
+    tt_events.1.name:99 "新世界"
+    tt_events.1.desc:99 "我々は§Y[new_worlds_sector.GetName]§!セクターにおいて、居住のための世界変革に成功した。"
+
+    tt_new_worlds_terraform_planets:99 "§Y最大セクター§!(システム数で計算)の§Y5システム§!ごとに、居住不可能な§Y惑星§!1つが§Yテラフォーミング§!される。最低でも§Y3つ§!の惑星が§Yテラフォーミング§!される。各セクターは一度だけ影響を受ける。\n§L注: 入植不能で、まだテラフォーミング候補ではない惑星のみが対象となる。§!"
+
+    # Creator of Worlds Ascension Perk
+    ap_tt_creator_of_worlds:99 "世界の創造者"
+    ap_tt_creator_of_worlds_desc:99 "我々は天体を作り変える術を極め、最も過酷な世界さえもテラフォーミングの候補に変える。"
+    tt_creator_of_worlds_unlock_tooltip:99 "国境内の不毛な、凍結した、毒性の、溶融した惑星に対して§Yテラフォーミング候補に指定§!の決定を解禁する。\n国境内の壊れた惑星および砕かれた惑星に対して§Y砕けた世界の修復§!の決定を解禁する。(£engineering_research£メガエンジニアリング技術が必要。)\n§Y入植済みのガイア惑星§!1つにつき£influence£§G+0.1§!を獲得する。"
+    tt_creator_of_worlds_gaia_influence_modifier:99 "ガイア・ワールドの影響力"
+    tt_creator_of_worlds_gaia_influence_modifier_desc:99 "我が帝国に入植された§Kガイア§!ワールドの一つひとつが、テラフォーミングへの熟達を証明する。\n§T(入植済みのガイア惑星1つにつき£influence£+0.1を獲得。)§!"
+    tt_requires_terraform_tradition_finish:99 "$TRIGGER_FAIL$£unity£['tradition_category:tradition_terraform']伝統ツリーが必要。"
+
+    # Creator of Worlds Decision
+    tt_decision_creator_of_worlds_mark_candidate:99 "テラフォーミング候補に指定"
+    tt_decision_creator_of_worlds_mark_candidate_desc:99 "我々の世界形成の専門知識により、この惑星体を評価し、将来のテラフォーミングに向けて準備し、有望な候補として指定することができる。"
+    tt_decision_creator_of_worlds_mark_candidate_effect_tooltip:99 "この惑星は§Yテラフォーミング候補§!として指定され、居住可能な世界へとテラフォーミングできるようになる。"
+
+    # Creator of Worlds - Repair Planet Decision
+    tt_decision_creator_of_worlds_repair_planet:99 "世界を修復"
+    tt_decision_creator_of_worlds_repair_planet_desc:99 "途方もない工学的努力により、この砕け散った世界の破片を再結集し、不毛だが安定した、テラフォーミング可能な惑星体へと修復することができる。"
+    tt_decision_creator_of_worlds_repair_planet_effect_tooltip:99 "この惑星は§Y不毛な世界§!に修復され、§Yテラフォーミング候補§!に指定される。"
+    requires_mega_engineering:99 "$TRIGGER_FAIL$£physics_research£メガエンジニアリング技術が必要。"

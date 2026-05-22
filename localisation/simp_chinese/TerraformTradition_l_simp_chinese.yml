@@ -1,0 +1,87 @@
+﻿l_simp_chinese:
+    # Tradition
+    tradition_terraform:99 "环境改造"
+    tradition_terraform_desc:99 "我们将一个又一个地改造星球,把整个银河变为家园。"
+    tr_terraform_adopt:99 "环境改造传统"
+    tr_terraform_finish:99 "环境改造精通"
+    tr_terraform_frontier_exploitation:99 "边疆开发"
+    tr_terraform_frontier_exploitation_delayed:99 "掌握资源开采的基础将在未来岁月中带来丰厚回报。"
+    tr_terraform_planet_probing:99 "行星探查"
+    tr_terraform_planet_probing_delayed:99 "通过用一系列先进探针仔细搜寻每一颗星球,我们能在被忽视的角落找到资源。"
+    tr_terraform_world_shaper:99 "世界塑造者"
+    tr_terraform_world_shaper_delayed:99 "盖亚星球是所有生物形态的终极目标。"
+    tr_terraform_climate_engineering:99 "气候工程"
+    tr_terraform_climate_engineering_delayed:99 "我们在气候工程方面的专长使我们能够以前所未有的速度进行环境改造。"
+    tr_terraform_planet_restoration:99 "行星修复"
+    tr_terraform_planet_restoration_delayed:99 "即使是最寒冷的星球也能被解冻,最有毒的星球也能被净化。我们将让它们全部变得宜居。"
+
+    tr_terraform_finish_gaia_mastery_unlocked:99 "您现在可以通过基因调整添加§Y盖亚精通§!行星偏好类型。"
+    tr_terraform_finish_creator_of_worlds_unlocked:99 "您现在可以解锁§Y世界缔造者§!飞升专精。"
+    tr_terraform_create_basic_planetary_deposit:99 "允许我们在世界上创建一处基础§Y行星矿藏§!。"
+    tr_terraform_create_strategic_planetary_deposit:99 "允许我们在世界上创建一处战略§Y行星矿藏§!。\n§Y您必须拥有相应的战略资源技术§!"
+    tr_terraform_planet_restoration_unlocked:99 "允许我们对§Y毒气§!和§Y冰封§!星球进行环境改造。"
+
+    # Decisions
+    tt_decision_add_planetary_deposit_energy:99 "环境改造 - 添加能量矿藏"
+    tt_decision_add_planetary_deposit_energy_desc:99 "通过先进的环境改造,我们的帝国操控行星地壳与大气以创造丰富的能量场,将行星的自然之力为我们所用。"
+    tt_decision_add_planetary_deposit_minerals:99 "环境改造 - 添加矿物矿藏"
+    tt_decision_add_planetary_deposit_minerals_desc:99 "通过重塑地质层,我们能够暴露并集中矿脉,将行星变为我们工业的宝贵原料来源。"
+    tt_decision_add_planetary_deposit_food:99 "环境改造 - 添加食物矿藏"
+    tt_decision_add_planetary_deposit_food_desc:99 "先进的气候操控使我们能在意想不到的地方创造肥沃土地,让广阔的农业地带得以繁盛,以养活日益增长的人口。"
+    tt_decision_add_planetary_deposit_rare_crystals:99 "环境改造 - 添加稀有水晶矿藏"
+    tt_decision_add_planetary_deposit_rare_crystals_desc:99 "我们能够改变行星条件以促进稀有水晶的形成,从而开启新的技术与经济机遇。"
+    tt_decision_add_planetary_deposit_volatile_motes:99 "环境改造 - 添加易爆粒子矿藏"
+    tt_decision_add_planetary_deposit_volatile_motes_desc:99 "通过精确的环境改造,某些地形会触发化学反应,生成易爆粒子,从而为先进工业与武器提供燃料。"
+    tt_decision_add_planetary_deposit_exotic_gases:99 "环境改造 - 添加奇异气体矿藏"
+    tt_decision_add_planetary_deposit_exotic_gases_desc:99 "通过操控当地动植物群,我们能够形成奇异气体的聚集区,这是我们科学事业的宝贵资源。"
+    tt_decision_add_planetary_deposit_betherian_fields:99 "环境改造 - 添加贝瑟里安矿场矿藏"
+    tt_decision_add_planetary_deposit_betherian_fields_desc:99 "我们能够安全地寻得一颗小行星并将其平稳地拽到行星表面,撒下一片贝瑟里安水晶供我们开采。"
+    tt_decision_add_planetary_deposit_underground_complex:99 "环境改造 - 添加地下综合设施"
+    tt_decision_add_planetary_deposit_underground_complex_desc:99 "运用最新的基础设施技术,我们能够建造一座庞大的地下综合设施以扩展行星的基础设施容量,尽管代价极其高昂。"
+
+    tt_decisions_add_basic_deposit_block_tooltip:99 "每颗星球只能添加§Y一处§!基础矿藏。"
+    tt_decisions_add_strategic_deposit_block_tooltip:99 "每颗星球只能添加§Y一处§!战略矿藏。"
+
+    decision_cultivated_worldscaping_replace_mastery_of_nature:99 "$decision_cultivated_worldscaping$"
+    decision_cultivated_worldscaping_replace_mastery_of_nature_desc:99 "$decision_cultivated_worldscaping_desc$"
+
+    tt_already_has_terraform_tradition:99 "$TRIGGER_FAIL$您已采纳环境改造传统。"
+
+    # Deposits
+    d_tt_underground_complex:99 "地下综合设施"
+    d_tt_underground_complex_desc:99 "一座以巨大代价建成的庞大地下综合设施,可满足任何类型工作的基础设施需求。"
+
+    # Traits
+    trait_pc_gaia_preference_mastery:99 "$trait_pc_gaia_preference$"
+    trait_pc_gaia_preference_mastery_short:99 "$trait_pc_gaia_preference_short$"
+    trait_pc_gaia_preference_mastery_desc:99 "§L气候偏好由基因层面决定,而在此情形下则由对环境改造艺术的精通所决定。§!"
+    gaia_preference_mastery_trait_tooltip:99 "盖亚星球上的POP产出: §G+10%§!\n    - 盖亚星球上的幸福度: §G+10%§!\n    - 盖亚星球上的人口增长: §G+15%§!"
+
+    # Agendas
+    council_agenda_agenda_new_worlds_name:99 "崭新世界"
+    council_agenda_agenda_new_worlds_desc:99 "只要有足够的耐心,即使是最荒芜的岩石也能化作繁荣的世界。"
+
+    # Events
+    tt_events.1.name:99 "崭新世界"
+    tt_events.1.desc:99 "我们已成功在§Y[new_worlds_sector.GetName]§!星区改造出宜居世界。"
+
+    tt_new_worlds_terraform_planets:99 "在§Y最大的星区§!(按星系数量)中,每§Y五个星系§!即有一颗不宜居§Y行星§!被§Y环境改造§!。最少有§Y三颗§!行星会被§Y环境改造§!。每个星区只能受影响一次。\n§L注意:仅会改造尚不可殖民且尚未成为环境改造候选的行星。§!"
+
+    # Creator of Worlds Ascension Perk
+    ap_tt_creator_of_worlds:99 "世界缔造者"
+    ap_tt_creator_of_worlds_desc:99 "我们已经掌握了重塑天体的艺术,即使是最不宜居的世界也能化为环境改造的候选行星。"
+    tt_creator_of_worlds_unlock_tooltip:99 "在您疆域内的贫瘠、冰封、毒气和熔岩行星上解锁§Y标记环境改造候选§!决议。\n在您疆域内的破碎及粉碎行星上解锁§Y修复粉碎之地§!决议。(需要£engineering_research£巨型工程学技术。)\n每颗§Y已殖民盖亚行星§!提供 £influence£ §G+0.1§! 。"
+    tt_creator_of_worlds_gaia_influence_modifier:99 "盖亚星球影响力"
+    tt_creator_of_worlds_gaia_influence_modifier_desc:99 "我们帝国所殖民的每一颗§K盖亚§!世界,都印证了我们对环境改造的精通。\n§T(每颗已殖民盖亚行星提供 £influence£ +0.1。)§!"
+    tt_requires_terraform_tradition_finish:99 "$TRIGGER_FAIL$需要 £unity£ ['tradition_category:tradition_terraform'] 传统树。"
+
+    # Creator of Worlds Decision
+    tt_decision_creator_of_worlds_mark_candidate:99 "创建环境改造候选"
+    tt_decision_creator_of_worlds_mark_candidate_desc:99 "我们的世界塑造专长使我们能够评估并准备这一行星天体以供未来环境改造,将其指定为可行的环境改造候选。"
+    tt_decision_creator_of_worlds_mark_candidate_effect_tooltip:99 "这颗行星将被标记为§Y环境改造候选§!,使其能够被改造为宜居世界。"
+
+    # Creator of Worlds - Repair Planet Decision
+    tt_decision_creator_of_worlds_repair_planet:99 "修复世界"
+    tt_decision_creator_of_worlds_repair_planet_desc:99 "通过宏伟的工程努力,我们能够重新拼合这颗粉碎之地的碎片,将其复原为一颗贫瘠但稳定、可供环境改造的行星天体。"
+    tt_decision_creator_of_worlds_repair_planet_effect_tooltip:99 "这颗行星将被复原为§Y贫瘠世界§!,并被标记为§Y环境改造候选§!。"
+    requires_mega_engineering:99 "$TRIGGER_FAIL$需要£physics_research£巨型工程学技术。"

@@ -1,0 +1,87 @@
+﻿l_french:
+    # Tradition
+    tradition_terraform:99 "Terraformation"
+    tradition_terraform_desc:99 "Nous transformerons la galaxie en un foyer, une planète à la fois."
+    tr_terraform_adopt:99 "Tradition de Terraformation"
+    tr_terraform_finish:99 "Maîtrise de la Terraformation"
+    tr_terraform_frontier_exploitation:99 "Exploitation des Confins"
+    tr_terraform_frontier_exploitation_delayed:99 "Maîtriser les bases de l'extraction des ressources portera ses fruits dans les années à venir."
+    tr_terraform_planet_probing:99 "Sondage Planétaire"
+    tr_terraform_planet_probing_delayed:99 "En scrutant chaque monde avec un réseau de sondes avancées, nous pouvons trouver des ressources dans des endroits négligés."
+    tr_terraform_world_shaper:99 "Façonneur de Mondes"
+    tr_terraform_world_shaper_delayed:99 "Le monde Gaïa est l'objectif ultime de toutes les formes de vie biologiques."
+    tr_terraform_climate_engineering:99 "Ingénierie Climatique"
+    tr_terraform_climate_engineering_delayed:99 "Notre expertise en ingénierie climatique nous permet de terraformer des planètes plus rapidement que jamais."
+    tr_terraform_planet_restoration:99 "Restauration Planétaire"
+    tr_terraform_planet_restoration_delayed:99 "Même les planètes les plus gelées peuvent être dégelées, et les plus toxiques purifiées. Nous les rendrons toutes habitables."
+
+    tr_terraform_finish_gaia_mastery_unlocked:99 "Vous pouvez désormais ajouter le type de préférence planétaire §YMaîtrise Gaïa§! grâce à la modification génétique."
+    tr_terraform_finish_creator_of_worlds_unlocked:99 "Vous pouvez désormais débloquer le privilège d'ascension §YCréateur de Mondes§!"
+    tr_terraform_create_basic_planetary_deposit:99 "Nous permet de créer un seul §Ygisement planétaire§! basique sur nos mondes."
+    tr_terraform_create_strategic_planetary_deposit:99 "Nous permet de créer un seul §Ygisement planétaire§! stratégique sur nos mondes.\n§YVous devez posséder la technologie de ressource stratégique appropriée§!"
+    tr_terraform_planet_restoration_unlocked:99 "Nous permet de terraformer les planètes §YToxiques§! et §YGelées§!."
+
+    # Decisions
+    tt_decision_add_planetary_deposit_energy:99 "Terraformer - Ajouter un Gisement d'Énergie"
+    tt_decision_add_planetary_deposit_energy_desc:99 "Grâce à une terraformation avancée, notre empire manipule la croûte et l'atmosphère planétaires pour créer de riches champs énergétiques, exploitant la puissance naturelle de la planète pour nos besoins."
+    tt_decision_add_planetary_deposit_minerals:99 "Terraformer - Ajouter un Gisement de Minerais"
+    tt_decision_add_planetary_deposit_minerals_desc:99 "En remodelant les couches géologiques, nous pouvons exposer et concentrer les filons minéraux, transformant la planète en une précieuse source de matières premières pour notre industrie."
+    tt_decision_add_planetary_deposit_food:99 "Terraformer - Ajouter un Gisement de Nourriture"
+    tt_decision_add_planetary_deposit_food_desc:99 "Une manipulation climatique avancée nous permet de créer des terres fertiles dans des endroits improbables, permettant à de vastes zones agricoles de prospérer et de soutenir notre population croissante."
+    tt_decision_add_planetary_deposit_rare_crystals:99 "Terraformer - Ajouter un Gisement de Cristaux Rares"
+    tt_decision_add_planetary_deposit_rare_crystals_desc:99 "Nous pouvons transformer les conditions planétaires pour favoriser la formation de cristaux rares, ouvrant de nouvelles opportunités technologiques et économiques."
+    tt_decision_add_planetary_deposit_volatile_motes:99 "Terraformer - Ajouter un Gisement de Particules Volatiles"
+    tt_decision_add_planetary_deposit_volatile_motes_desc:99 "Grâce à une terraformation précise, certains paysages peuvent déclencher des réactions chimiques générant des particules volatiles, alimentant industries et armements avancés."
+    tt_decision_add_planetary_deposit_exotic_gases:99 "Terraformer - Ajouter un Gisement de Gaz Exotiques"
+    tt_decision_add_planetary_deposit_exotic_gases_desc:99 "En manipulant la flore et la faune locales, nous pouvons créer des poches de gaz exotiques, une ressource précieuse pour nos entreprises scientifiques."
+    tt_decision_add_planetary_deposit_betherian_fields:99 "Terraformer - Ajouter un Gisement de Champs Béthériens"
+    tt_decision_add_planetary_deposit_betherian_fields_desc:99 "Nous pouvons repérer un astéroïde en toute sécurité et le faire descendre sur la surface de la planète, dispersant un champ de cristaux béthériens à exploiter."
+    tt_decision_add_planetary_deposit_underground_complex:99 "Terraformer - Ajouter un Complexe Souterrain"
+    tt_decision_add_planetary_deposit_underground_complex_desc:99 "Grâce aux dernières technologies d'infrastructure, nous pouvons construire un immense complexe souterrain pour étendre les capacités d'infrastructure de la planète, quoique à un coût considérable."
+
+    tt_decisions_add_basic_deposit_block_tooltip:99 "Vous ne pouvez ajouter qu'§Yun seul§! gisement basique par planète."
+    tt_decisions_add_strategic_deposit_block_tooltip:99 "Vous ne pouvez ajouter qu'§Yun seul§! gisement stratégique par planète."
+
+    decision_cultivated_worldscaping_replace_mastery_of_nature:99 "$decision_cultivated_worldscaping$"
+    decision_cultivated_worldscaping_replace_mastery_of_nature_desc:99 "$decision_cultivated_worldscaping_desc$"
+
+    tt_already_has_terraform_tradition:99 "$TRIGGER_FAIL$Vous avez déjà adopté la Tradition de Terraformation."
+
+    # Deposits
+    d_tt_underground_complex:99 "Complexe Souterrain"
+    d_tt_underground_complex_desc:99 "Un immense complexe souterrain, construit à un coût considérable pour répondre aux besoins en infrastructure de toutes sortes de travaux."
+
+    # Traits
+    trait_pc_gaia_preference_mastery:99 "$trait_pc_gaia_preference$"
+    trait_pc_gaia_preference_mastery_short:99 "$trait_pc_gaia_preference_short$"
+    trait_pc_gaia_preference_mastery_desc:99 "§LLa préférence climatique est déterminée au niveau génétique, et dans ce cas, par la maîtrise de l'art de la terraformation.§!"
+    gaia_preference_mastery_trait_tooltip:99 "Production des pops sur les mondes Gaïa : §G+10%§!\n    - Bonheur sur les mondes Gaïa : §G+10%§!\n    - Croissance démographique sur les mondes Gaïa : §G+15%§!"
+
+    # Agendas
+    council_agenda_agenda_new_worlds_name:99 "Nouveaux Mondes"
+    council_agenda_agenda_new_worlds_desc:99 "Avec assez de patience, même les rochers les plus stériles peuvent devenir des mondes florissants."
+
+    # Events
+    tt_events.1.name:99 "Nouveaux Mondes"
+    tt_events.1.desc:99 "Nous avons transformé avec succès des mondes habitables dans le secteur §Y[new_worlds_sector.GetName]§!."
+
+    tt_new_worlds_terraform_planets:99 "Pour chaque tranche de §Ycinq systèmes§! du §Yplus grand secteur§! (en nombre de systèmes), une §Yplanète§! inhabitable sera §Yterraformée§!. Au minimum, §Ytrois§! planètes seront §Yterraformées§!. Chaque secteur ne peut être affecté qu'une seule fois.\n§LNote : seules les planètes non colonisables qui ne sont pas déjà des candidates à la terraformation seront transformées.§!"
+
+    # Creator of Worlds Ascension Perk
+    ap_tt_creator_of_worlds:99 "Créateur de Mondes"
+    ap_tt_creator_of_worlds_desc:99 "Nous avons maîtrisé l'art de remodeler les corps célestes, transformant même les mondes les plus inhospitaliers en candidats à la terraformation."
+    tt_creator_of_worlds_unlock_tooltip:99 "Débloque la décision §YDésigner Candidate à la Terraformation§! sur les planètes stériles, gelées, toxiques et fondues à l'intérieur de vos frontières.\nDébloque la décision §YRéparer Monde Brisé§! sur les planètes brisées et fragmentées à l'intérieur de vos frontières. (Nécessite la technologie £engineering_research£ Méga-Ingénierie.)\nGagnez £influence£ §G+0,1§! par §Yplanète Gaïa colonisée§!."
+    tt_creator_of_worlds_gaia_influence_modifier:99 "Influence des Mondes Gaïa"
+    tt_creator_of_worlds_gaia_influence_modifier_desc:99 "Chaque monde §KGaïa§! colonisé par notre empire prouve notre maîtrise de la terraformation.\n§T(Gagnez £influence£ +0,1 par planète Gaïa colonisée.)§!"
+    tt_requires_terraform_tradition_finish:99 "$TRIGGER_FAIL$Nécessite l'arbre de traditions £unity£ ['tradition_category:tradition_terraform']."
+
+    # Creator of Worlds Decision
+    tt_decision_creator_of_worlds_mark_candidate:99 "Créer une Candidate à la Terraformation"
+    tt_decision_creator_of_worlds_mark_candidate_desc:99 "Notre expertise en façonnage de mondes nous permet d'évaluer et de préparer ce corps planétaire pour une future terraformation, le désignant comme une candidate viable."
+    tt_decision_creator_of_worlds_mark_candidate_effect_tooltip:99 "Cette planète sera marquée comme §Ycandidate à la terraformation§!, permettant de la transformer en monde habitable."
+
+    # Creator of Worlds - Repair Planet Decision
+    tt_decision_creator_of_worlds_repair_planet:99 "Réparer un Monde"
+    tt_decision_creator_of_worlds_repair_planet_desc:99 "Grâce à un effort d'ingénierie monumental, nous pouvons réassembler les fragments de ce monde brisé, le restaurant en un corps planétaire stérile mais stable, prêt pour la terraformation."
+    tt_decision_creator_of_worlds_repair_planet_effect_tooltip:99 "Cette planète sera restaurée en §Ymonde stérile§! et marquée comme §Ycandidate à la terraformation§!."
+    requires_mega_engineering:99 "$TRIGGER_FAIL$Nécessite la technologie £physics_research£ Méga-Ingénierie."

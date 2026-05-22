@@ -1,0 +1,87 @@
+﻿l_russian:
+    # Tradition
+    tradition_terraform:99 "Терраформирование"
+    tradition_terraform_desc:99 "Мы превратим галактику в дом, по одной планете за раз."
+    tr_terraform_adopt:99 "Традиция терраформирования"
+    tr_terraform_finish:99 "Мастерство терраформирования"
+    tr_terraform_frontier_exploitation:99 "Освоение фронтира"
+    tr_terraform_frontier_exploitation_delayed:99 "Овладение основами добычи ресурсов принесёт плоды в грядущие годы."
+    tr_terraform_planet_probing:99 "Зондирование планет"
+    tr_terraform_planet_probing_delayed:99 "Прочёсывая каждый мир сетью передовых зондов, мы можем находить ресурсы в местах, оставленных без внимания."
+    tr_terraform_world_shaper:99 "Творец миров"
+    tr_terraform_world_shaper_delayed:99 "Мир Геи — конечная цель всех биологических форм жизни."
+    tr_terraform_climate_engineering:99 "Климатическая инженерия"
+    tr_terraform_climate_engineering_delayed:99 "Наш опыт в климатической инженерии позволяет терраформировать планеты быстрее, чем когда-либо."
+    tr_terraform_planet_restoration:99 "Восстановление планет"
+    tr_terraform_planet_restoration_delayed:99 "Даже самые замёрзшие планеты можно растопить, а самые токсичные — очистить. Мы сделаем все их пригодными для жизни."
+
+    tr_terraform_finish_gaia_mastery_unlocked:99 "Теперь вы можете добавить тип планетарного предпочтения §YМастерство Геи§! посредством генной модификации."
+    tr_terraform_finish_creator_of_worlds_unlocked:99 "Теперь вы можете разблокировать перк вознесения §YТворец миров§!"
+    tr_terraform_create_basic_planetary_deposit:99 "Позволяет создать одно базовое §Yпланетарное месторождение§! на наших мирах."
+    tr_terraform_create_strategic_planetary_deposit:99 "Позволяет создать одно стратегическое §Yпланетарное месторождение§! на наших мирах.\n§YВы должны обладать соответствующей технологией стратегических ресурсов§!"
+    tr_terraform_planet_restoration_unlocked:99 "Позволяет нам терраформировать §YТоксичные§! и §YЗамёрзшие§! планеты."
+
+    # Decisions
+    tt_decision_add_planetary_deposit_energy:99 "Терраформирование — добавить энергетическое месторождение"
+    tt_decision_add_planetary_deposit_energy_desc:99 "Благодаря передовому терраформированию наша империя манипулирует корой и атмосферой планеты, создавая богатые энергетические поля и используя естественную силу планеты в своих целях."
+    tt_decision_add_planetary_deposit_minerals:99 "Терраформирование — добавить месторождение минералов"
+    tt_decision_add_planetary_deposit_minerals_desc:99 "Перестраивая геологические слои, мы можем обнажать и концентрировать минеральные жилы, превращая планету в ценный источник сырья для нашей промышленности."
+    tt_decision_add_planetary_deposit_food:99 "Терраформирование — добавить месторождение еды"
+    tt_decision_add_planetary_deposit_food_desc:99 "Передовая климатическая манипуляция позволяет создавать плодородные земли в неожиданных местах, давая возможность обширным сельскохозяйственным зонам процветать и кормить наше растущее население."
+    tt_decision_add_planetary_deposit_rare_crystals:99 "Терраформирование — добавить месторождение редких кристаллов"
+    tt_decision_add_planetary_deposit_rare_crystals_desc:99 "Мы можем изменять планетарные условия, способствуя образованию редких кристаллов и открывая новые технологические и экономические возможности."
+    tt_decision_add_planetary_deposit_volatile_motes:99 "Терраформирование — добавить месторождение летучих частиц"
+    tt_decision_add_planetary_deposit_volatile_motes_desc:99 "Благодаря точному терраформированию определённые ландшафты могут вызывать химические реакции, порождающие летучие частицы, питающие передовую промышленность и вооружение."
+    tt_decision_add_planetary_deposit_exotic_gases:99 "Терраформирование — добавить месторождение экзотических газов"
+    tt_decision_add_planetary_deposit_exotic_gases_desc:99 "Манипулируя местной флорой и фауной, мы можем создавать карманы экзотических газов — ценный ресурс для наших научных начинаний."
+    tt_decision_add_planetary_deposit_betherian_fields:99 "Терраформирование — добавить месторождение бетерианских полей"
+    tt_decision_add_planetary_deposit_betherian_fields_desc:99 "Мы можем безопасно найти астероид и плавно опустить его на поверхность планеты, рассыпав поле бетерианских кристаллов для нашей разработки."
+    tt_decision_add_planetary_deposit_underground_complex:99 "Терраформирование — добавить подземный комплекс"
+    tt_decision_add_planetary_deposit_underground_complex_desc:99 "Используя новейшие технологии инфраструктуры, мы можем построить огромный подземный комплекс, чтобы расширить инфраструктурную ёмкость планеты, пусть и колоссальной ценой."
+
+    tt_decisions_add_basic_deposit_block_tooltip:99 "Вы можете добавить только §Yодно§! базовое месторождение на каждую планету."
+    tt_decisions_add_strategic_deposit_block_tooltip:99 "Вы можете добавить только §Yодно§! стратегическое месторождение на каждую планету."
+
+    decision_cultivated_worldscaping_replace_mastery_of_nature:99 "$decision_cultivated_worldscaping$"
+    decision_cultivated_worldscaping_replace_mastery_of_nature_desc:99 "$decision_cultivated_worldscaping_desc$"
+
+    tt_already_has_terraform_tradition:99 "$TRIGGER_FAIL$Вы уже приняли Традицию терраформирования."
+
+    # Deposits
+    d_tt_underground_complex:99 "Подземный комплекс"
+    d_tt_underground_complex_desc:99 "Огромный подземный комплекс, построенный с громадными затратами, чтобы обеспечить инфраструктурные потребности для любого вида работ."
+
+    # Traits
+    trait_pc_gaia_preference_mastery:99 "$trait_pc_gaia_preference$"
+    trait_pc_gaia_preference_mastery_short:99 "$trait_pc_gaia_preference_short$"
+    trait_pc_gaia_preference_mastery_desc:99 "§LКлиматические предпочтения определяются на генетическом уровне, а в данном случае — путём овладения искусством терраформирования.§!"
+    gaia_preference_mastery_trait_tooltip:99 "Производительность популяций на мирах Геи: §G+10%§!\n    - Счастье на мирах Геи: §G+10%§!\n    - Прирост населения на мирах Геи: §G+15%§!"
+
+    # Agendas
+    council_agenda_agenda_new_worlds_name:99 "Новые миры"
+    council_agenda_agenda_new_worlds_desc:99 "С достаточным терпением даже самые бесплодные камни могут быть превращены в процветающие миры."
+
+    # Events
+    tt_events.1.name:99 "Новые миры"
+    tt_events.1.desc:99 "Мы успешно преобразовали миры для заселения в секторе §Y[new_worlds_sector.GetName]§!."
+
+    tt_new_worlds_terraform_planets:99 "На каждые §Yпять систем§! в §Yкрупнейшем секторе§! (по числу систем) одна непригодная для жизни §Yпланета§! будет §Yтерраформирована§!. Минимум §Yтри§! планеты будут §Yтерраформированы§!. Каждый сектор может быть затронут лишь однажды.\n§LПримечание: преобразованию подлежат только планеты, которые непригодны для колонизации и ещё не являются кандидатами на терраформирование.§!"
+
+    # Creator of Worlds Ascension Perk
+    ap_tt_creator_of_worlds:99 "Творец миров"
+    ap_tt_creator_of_worlds_desc:99 "Мы овладели искусством преобразования небесных тел, превращая даже самые негостеприимные миры в кандидатов на терраформирование."
+    tt_creator_of_worlds_unlock_tooltip:99 "Открывает решение §YОтметить кандидатом на терраформирование§! для бесплодных, замёрзших, токсичных и расплавленных планет в пределах ваших границ.\nОткрывает решение §YВосстановить расколотый мир§! для разрушенных и расколотых планет в пределах ваших границ. (Требуется технология £engineering_research£ «Мегаинженерия».)\nДаёт £influence£ §G+0,1§! за каждую §Yколонизированную планету Геи§!."
+    tt_creator_of_worlds_gaia_influence_modifier:99 "Влияние миров Геи"
+    tt_creator_of_worlds_gaia_influence_modifier_desc:99 "Каждый колонизированный нашей империей мир §KГеи§! доказывает наше мастерство в терраформировании.\n§T(Даёт £influence£ +0,1 за каждую колонизированную планету Геи.)§!"
+    tt_requires_terraform_tradition_finish:99 "$TRIGGER_FAIL$Требуется дерево традиций £unity£ ['tradition_category:tradition_terraform']."
+
+    # Creator of Worlds Decision
+    tt_decision_creator_of_worlds_mark_candidate:99 "Создать кандидата на терраформирование"
+    tt_decision_creator_of_worlds_mark_candidate_desc:99 "Наш опыт в формировании миров позволяет оценить и подготовить это планетарное тело к будущему терраформированию, отметив его как пригодного кандидата."
+    tt_decision_creator_of_worlds_mark_candidate_effect_tooltip:99 "Эта планета будет отмечена как §Yкандидат на терраформирование§!, что позволит превратить её в обитаемый мир."
+
+    # Creator of Worlds - Repair Planet Decision
+    tt_decision_creator_of_worlds_repair_planet:99 "Восстановить мир"
+    tt_decision_creator_of_worlds_repair_planet_desc:99 "Грандиозными инженерными усилиями мы можем собрать воедино фрагменты этого расколотого мира, восстановив его до бесплодного, но стабильного планетарного тела, готового к терраформированию."
+    tt_decision_creator_of_worlds_repair_planet_effect_tooltip:99 "Эта планета будет восстановлена до §Yбесплодного мира§! и отмечена как §Yкандидат на терраформирование§!."
+    requires_mega_engineering:99 "$TRIGGER_FAIL$Требуется технология £physics_research£ «Мегаинженерия»."

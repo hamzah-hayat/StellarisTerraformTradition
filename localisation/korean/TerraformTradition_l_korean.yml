@@ -1,0 +1,87 @@
+﻿l_korean:
+    # Tradition
+    tradition_terraform:99 "테라포밍"
+    tradition_terraform_desc:99 "우리는 한 행성씩 차근차근, 은하를 우리의 보금자리로 바꿀 것이다."
+    tr_terraform_adopt:99 "테라포밍 전통"
+    tr_terraform_finish:99 "테라포밍의 통달"
+    tr_terraform_frontier_exploitation:99 "변경 개척"
+    tr_terraform_frontier_exploitation_delayed:99 "자원 채취의 기초를 통달하면 앞으로 수년간 그 결실을 거두게 될 것이다."
+    tr_terraform_planet_probing:99 "행성 탐사"
+    tr_terraform_planet_probing_delayed:99 "고도의 탐사기 군단으로 모든 행성을 샅샅이 조사하면, 간과된 곳에서도 자원을 찾아낼 수 있다."
+    tr_terraform_world_shaper:99 "월드 셰이퍼"
+    tr_terraform_world_shaper_delayed:99 "가이아 월드는 모든 생물학적 생명체의 궁극적 목표이다."
+    tr_terraform_climate_engineering:99 "기후 공학"
+    tr_terraform_climate_engineering_delayed:99 "기후 공학에 대한 우리의 전문성은 그 어느 때보다 빠르게 행성을 테라포밍할 수 있게 해 준다."
+    tr_terraform_planet_restoration:99 "행성 복원"
+    tr_terraform_planet_restoration_delayed:99 "가장 얼어붙은 행성도 녹일 수 있고, 가장 유독한 행성도 정화할 수 있다. 우리는 그 모두를 거주 가능하게 만들 것이다."
+
+    tr_terraform_finish_gaia_mastery_unlocked:99 "이제 유전자 조작을 통해 §Y가이아 마스터리§! 행성 선호 유형을 추가할 수 있다."
+    tr_terraform_finish_creator_of_worlds_unlocked:99 "이제 §Y세계의 창조자§! 승천 특전을 잠금 해제할 수 있다."
+    tr_terraform_create_basic_planetary_deposit:99 "우리의 행성에 단일 기초 §Y행성 매장지§!를 생성할 수 있게 한다."
+    tr_terraform_create_strategic_planetary_deposit:99 "우리의 행성에 단일 전략 §Y행성 매장지§!를 생성할 수 있게 한다.\n§Y해당하는 전략 자원 기술을 보유하고 있어야 한다§!"
+    tr_terraform_planet_restoration_unlocked:99 "§Y유독§! 행성과 §Y동결§! 행성을 테라포밍할 수 있게 한다."
+
+    # Decisions
+    tt_decision_add_planetary_deposit_energy:99 "테라포밍 - 에너지 매장지 추가"
+    tt_decision_add_planetary_deposit_energy_desc:99 "고도의 테라포밍을 통해 우리 제국은 행성의 지각과 대기를 조작하여 풍부한 에너지장을 만들어내고, 행성의 자연력을 우리의 필요에 맞게 활용한다."
+    tt_decision_add_planetary_deposit_minerals:99 "테라포밍 - 광물 매장지 추가"
+    tt_decision_add_planetary_deposit_minerals_desc:99 "지질층을 재구성하여 광맥을 드러내고 집중시킬 수 있으며, 행성을 우리 산업의 귀중한 원자재 공급원으로 변모시킨다."
+    tt_decision_add_planetary_deposit_food:99 "테라포밍 - 식량 매장지 추가"
+    tt_decision_add_planetary_deposit_food_desc:99 "고도의 기후 조작은 가능성이 희박한 곳에 비옥한 토지를 조성할 수 있게 하여, 광활한 농업 지대가 번성하고 늘어나는 인구를 부양할 수 있게 한다."
+    tt_decision_add_planetary_deposit_rare_crystals:99 "테라포밍 - 희귀 결정 매장지 추가"
+    tt_decision_add_planetary_deposit_rare_crystals_desc:99 "행성 환경을 변환하여 희귀 결정의 형성을 촉진하고, 새로운 기술적·경제적 기회를 열 수 있다."
+    tt_decision_add_planetary_deposit_volatile_motes:99 "테라포밍 - 휘발성 미립자 매장지 추가"
+    tt_decision_add_planetary_deposit_volatile_motes_desc:99 "정밀한 테라포밍을 통해 특정 지형에서 화학 반응을 일으켜 휘발성 미립자를 생성할 수 있으며, 이는 첨단 산업과 무기를 가동시킨다."
+    tt_decision_add_planetary_deposit_exotic_gases:99 "테라포밍 - 외계성 가스 매장지 추가"
+    tt_decision_add_planetary_deposit_exotic_gases_desc:99 "현지 동식물상을 조작함으로써 외계성 가스의 영역을 만들어낼 수 있으며, 이는 우리의 과학적 사업에 귀중한 자원이다."
+    tt_decision_add_planetary_deposit_betherian_fields:99 "테라포밍 - 베서리안 필드 매장지 추가"
+    tt_decision_add_planetary_deposit_betherian_fields_desc:99 "소행성을 안전하게 발견하여 행성 표면에 안전하게 안착시키고, 베서리안 결정의 평원을 흩뿌려 활용할 수 있다."
+    tt_decision_add_planetary_deposit_underground_complex:99 "테라포밍 - 지하 복합 시설 추가"
+    tt_decision_add_planetary_deposit_underground_complex_desc:99 "최신 기반시설 기술을 활용하여 거대한 지하 복합 시설을 건설해 행성의 기반시설 수용력을 확장할 수 있다. 단, 막대한 비용이 든다."
+
+    tt_decisions_add_basic_deposit_block_tooltip:99 "각 행성마다 §Y하나§!의 기초 매장지만 추가할 수 있다."
+    tt_decisions_add_strategic_deposit_block_tooltip:99 "각 행성마다 §Y하나§!의 전략 매장지만 추가할 수 있다."
+
+    decision_cultivated_worldscaping_replace_mastery_of_nature:99 "$decision_cultivated_worldscaping$"
+    decision_cultivated_worldscaping_replace_mastery_of_nature_desc:99 "$decision_cultivated_worldscaping_desc$"
+
+    tt_already_has_terraform_tradition:99 "$TRIGGER_FAIL$이미 테라포밍 전통을 채택했습니다."
+
+    # Deposits
+    d_tt_underground_complex:99 "지하 복합 시설"
+    d_tt_underground_complex_desc:99 "어떤 종류의 작업에 대해서도 기반시설 수요를 충족시키기 위해 막대한 비용을 들여 건설된 거대한 지하 복합 시설."
+
+    # Traits
+    trait_pc_gaia_preference_mastery:99 "$trait_pc_gaia_preference$"
+    trait_pc_gaia_preference_mastery_short:99 "$trait_pc_gaia_preference_short$"
+    trait_pc_gaia_preference_mastery_desc:99 "§L기후 선호는 유전적 수준에서 결정되며, 이 경우 테라포밍 기술을 통달함으로써 결정된다.§!"
+    gaia_preference_mastery_trait_tooltip:99 "가이아 월드에서의 팝 산출량: §G+10%§!\n    - 가이아 월드에서의 행복도: §G+10%§!\n    - 가이아 월드에서의 인구 증가: §G+15%§!"
+
+    # Agendas
+    council_agenda_agenda_new_worlds_name:99 "새로운 세계"
+    council_agenda_agenda_new_worlds_desc:99 "충분한 인내심만 있다면, 가장 황량한 바위라 할지라도 번성하는 세계로 변모시킬 수 있다."
+
+    # Events
+    tt_events.1.name:99 "새로운 세계"
+    tt_events.1.desc:99 "우리는 §Y[new_worlds_sector.GetName]§! 섹터에서 거주를 위한 세계 변환에 성공했다."
+
+    tt_new_worlds_terraform_planets:99 "§Y가장 큰 섹터§!(시스템 수 기준)의 §Y5개 시스템§!마다 거주 불가능한 §Y행성§! 하나가 §Y테라포밍§!된다. 최소 §Y3개§! 행성이 §Y테라포밍§!된다. 각 섹터는 한 번만 영향을 받을 수 있다.\n§L참고: 식민화가 불가능하고 아직 테라포밍 후보가 아닌 행성만 변환된다.§!"
+
+    # Creator of Worlds Ascension Perk
+    ap_tt_creator_of_worlds:99 "세계의 창조자"
+    ap_tt_creator_of_worlds_desc:99 "우리는 천체를 재형성하는 기술을 통달했으며, 가장 척박한 세계조차 테라포밍 후보로 만들 수 있다."
+    tt_creator_of_worlds_unlock_tooltip:99 "국경 내의 불모, 동결, 유독, 용암 행성에 §Y테라포밍 후보 지정§! 결정을 잠금 해제한다.\n국경 내의 부서지고 산산조각 난 행성에 §Y산산조각 난 세계 복구§! 결정을 잠금 해제한다. (£engineering_research£ 거대 공학 기술 필요.)\n§Y식민화된 가이아 행성§! 하나당 £influence£ §G+0.1§! 획득."
+    tt_creator_of_worlds_gaia_influence_modifier:99 "가이아 월드 영향력"
+    tt_creator_of_worlds_gaia_influence_modifier_desc:99 "우리 제국에 의해 식민화된 모든 §K가이아§! 월드는 테라포밍에 대한 우리의 통달을 입증한다.\n§T(식민화된 가이아 행성 하나당 £influence£ +0.1 획득.)§!"
+    tt_requires_terraform_tradition_finish:99 "$TRIGGER_FAIL$£unity£ ['tradition_category:tradition_terraform'] 전통 트리가 필요합니다."
+
+    # Creator of Worlds Decision
+    tt_decision_creator_of_worlds_mark_candidate:99 "테라포밍 후보 생성"
+    tt_decision_creator_of_worlds_mark_candidate_desc:99 "우리의 세계 조형 전문성은 이 행성체를 평가하고 향후 테라포밍을 위해 준비할 수 있게 해 주며, 그것을 유효한 테라포밍 후보로 지정한다."
+    tt_decision_creator_of_worlds_mark_candidate_effect_tooltip:99 "이 행성은 §Y테라포밍 후보§!로 지정되어, 거주 가능한 세계로 테라포밍될 수 있게 된다."
+
+    # Creator of Worlds - Repair Planet Decision
+    tt_decision_creator_of_worlds_repair_planet:99 "세계 복구"
+    tt_decision_creator_of_worlds_repair_planet_desc:99 "기념비적인 공학적 노력을 통해, 산산조각 난 이 세계의 파편들을 재조립하여 불모이지만 안정적인, 테라포밍 가능한 행성체로 복원할 수 있다."
+    tt_decision_creator_of_worlds_repair_planet_effect_tooltip:99 "이 행성은 §Y불모 세계§!로 복원되며 §Y테라포밍 후보§!로 지정된다."
+    requires_mega_engineering:99 "$TRIGGER_FAIL$£physics_research£ 거대 공학 기술이 필요합니다."
