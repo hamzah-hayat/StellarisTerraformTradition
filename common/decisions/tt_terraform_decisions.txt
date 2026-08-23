@@ -19,7 +19,7 @@ tt_decision_add_planetary_deposit_energy = {
 		owner = {
 			has_tradition = tr_terraform_planet_probing
 		}
-		NOT = { has_planet_flag = tt_established_basic_deposit }
+		NOT = { has_carrier_flag = tt_established_basic_deposit }
 		habitable_planet_not_urban = yes
 	}
 
@@ -27,13 +27,13 @@ tt_decision_add_planetary_deposit_energy = {
 
 	on_queued = {
 		planet = {
-			set_planet_flag = tt_established_basic_deposit
+			set_carrier_flag = tt_established_basic_deposit
 		}
 	}
 
 	on_unqueued = {
 		planet = {
-			remove_planet_flag = tt_established_basic_deposit
+			remove_carrier_flag = tt_established_basic_deposit
 		}
 	}
 
@@ -102,7 +102,7 @@ tt_decision_add_planetary_deposit_minerals = {
 		owner = {
 			has_tradition = tr_terraform_planet_probing
 		}
-		NOT = { has_planet_flag = tt_established_basic_deposit }
+		NOT = { has_carrier_flag = tt_established_basic_deposit }
 		habitable_planet_not_urban = yes
 	}
 
@@ -110,13 +110,13 @@ tt_decision_add_planetary_deposit_minerals = {
 
 	on_queued = {
 		planet = {
-			set_planet_flag = tt_established_basic_deposit
+			set_carrier_flag = tt_established_basic_deposit
 		}
 	}
 
 	on_unqueued = {
 		planet = {
-			remove_planet_flag = tt_established_basic_deposit
+			remove_carrier_flag = tt_established_basic_deposit
 		}
 	}
 
@@ -174,7 +174,7 @@ tt_decision_add_planetary_deposit_food = {
 		owner = {
 			has_tradition = tr_terraform_planet_probing
 		}
-		NOT = { has_planet_flag = tt_established_basic_deposit }
+		NOT = { has_carrier_flag = tt_established_basic_deposit }
 		habitable_planet_not_urban = yes
 	}
 
@@ -182,13 +182,13 @@ tt_decision_add_planetary_deposit_food = {
 
 	on_queued = {
 		planet = {
-			set_planet_flag = tt_established_basic_deposit
+			set_carrier_flag = tt_established_basic_deposit
 		}
 	}
 
 	on_unqueued = {
 		planet = {
-			remove_planet_flag = tt_established_basic_deposit
+			remove_carrier_flag = tt_established_basic_deposit
 		}
 	}
 
@@ -263,7 +263,7 @@ tt_decision_add_planetary_deposit_rare_crystals = {
 			has_tradition = tr_terraform_planet_probing
 		}
 		NOT = { is_planet_class = pc_volcanic }
-		NOT = { has_planet_flag = tt_established_strategic_deposit }
+		NOT = { has_carrier_flag = tt_established_strategic_deposit }
 		habitable_planet_not_urban = yes
 	}
 
@@ -280,13 +280,13 @@ tt_decision_add_planetary_deposit_rare_crystals = {
 
 	on_queued = {
 		planet = {
-			set_planet_flag = tt_established_strategic_deposit
+			set_carrier_flag = tt_established_strategic_deposit
 		}
 	}
 
 	on_unqueued = {
 		planet = {
-			remove_planet_flag = tt_established_strategic_deposit
+			remove_carrier_flag = tt_established_strategic_deposit
 		}
 	}
 
@@ -342,7 +342,7 @@ tt_decision_add_planetary_deposit_volatile_motes = {
 		owner = {
 			has_tradition = tr_terraform_planet_probing
 		}
-		NOT = { has_planet_flag = tt_established_strategic_deposit }
+		NOT = { has_carrier_flag = tt_established_strategic_deposit }
 		habitable_planet_not_urban = yes
 	}
 
@@ -359,13 +359,13 @@ tt_decision_add_planetary_deposit_volatile_motes = {
 
 	on_queued = {
 		planet = {
-			set_planet_flag = tt_established_strategic_deposit
+			set_carrier_flag = tt_established_strategic_deposit
 		}
 	}
 
 	on_unqueued = {
 		planet = {
-			remove_planet_flag = tt_established_strategic_deposit
+			remove_carrier_flag = tt_established_strategic_deposit
 		}
 	}
 
@@ -413,7 +413,7 @@ tt_decision_add_planetary_deposit_exotic_gases = {
 		owner = {
 			has_tradition = tr_terraform_planet_probing
 		}
-		NOT = { has_planet_flag = tt_established_strategic_deposit }
+		NOT = { has_carrier_flag = tt_established_strategic_deposit }
 		habitable_planet_not_urban = yes
 	}
 
@@ -430,13 +430,13 @@ tt_decision_add_planetary_deposit_exotic_gases = {
 
 	on_queued = {
 		planet = {
-			set_planet_flag = tt_established_strategic_deposit
+			set_carrier_flag = tt_established_strategic_deposit
 		}
 	}
 
 	on_unqueued = {
 		planet = {
-			remove_planet_flag = tt_established_strategic_deposit
+			remove_carrier_flag = tt_established_strategic_deposit
 		}
 	}
 
@@ -484,7 +484,7 @@ tt_decision_add_planetary_deposit_betherian_fields = {
 		owner = {
 			has_tradition = tr_terraform_planet_probing
 		}
-		NOT = { has_planet_flag = tt_established_strategic_deposit }
+		NOT = { has_carrier_flag = tt_established_strategic_deposit }
 		habitable_planet_not_urban = yes
 	}
 
@@ -496,13 +496,13 @@ tt_decision_add_planetary_deposit_betherian_fields = {
 
 	on_queued = {
 		planet = {
-			set_planet_flag = tt_established_strategic_deposit
+			set_carrier_flag = tt_established_strategic_deposit
 		}
 	}
 
 	on_unqueued = {
 		planet = {
-			remove_planet_flag = tt_established_strategic_deposit
+			remove_carrier_flag = tt_established_strategic_deposit
 		}
 	}
 
@@ -535,7 +535,7 @@ tt_decision_add_planetary_deposit_underground_complex = {
 		owner = {
 			has_tradition = tr_terraform_planet_probing
 		}
-		NOT = { has_planet_flag = tt_established_strategic_deposit }
+		NOT = { has_carrier_flag = tt_established_strategic_deposit }
 		habitable_planet_not_urban = yes
 	}
 
@@ -549,13 +549,13 @@ tt_decision_add_planetary_deposit_underground_complex = {
 
 	on_queued = {
 		planet = {
-			set_planet_flag = tt_established_strategic_deposit
+			set_carrier_flag = tt_established_strategic_deposit
 		}
 	}
 
 	on_unqueued = {
 		planet = {
-			remove_planet_flag = tt_established_strategic_deposit
+			remove_carrier_flag = tt_established_strategic_deposit
 		}
 	}
 
@@ -708,7 +708,7 @@ tt_decision_creator_of_worlds_repair_planet = {
 			is_planet_class = pc_shattered_2
 			is_planet_class = pc_broken
 		}
-		NOT = { has_planet_flag = tt_repairing_planet }
+		NOT = { has_carrier_flag = tt_repairing_planet }
 	}
 
 	allow = {
@@ -725,11 +725,11 @@ tt_decision_creator_of_worlds_repair_planet = {
 	}
 
 	on_queued = {
-		set_planet_flag = tt_repairing_planet
+		set_carrier_flag = tt_repairing_planet
 	}
 
 	on_unqueued = {
-		remove_planet_flag = tt_repairing_planet
+		remove_carrier_flag = tt_repairing_planet
 	}
 
 	effect = {
@@ -739,7 +739,7 @@ tt_decision_creator_of_worlds_repair_planet = {
 			add_modifier = {
 				modifier = terraforming_candidate
 			}
-			remove_planet_flag = tt_repairing_planet
+			remove_carrier_flag = tt_repairing_planet
 		}
 	}
 
