@@ -708,7 +708,7 @@ tt_decision_creator_of_worlds_repair_planet = {
 			is_planet_class = pc_shattered_2
 			is_planet_class = pc_broken
 		}
-		NOT = { has_carrier_flag = tt_repairing_planet }
+		NOT = { has_planet_flag = tt_repairing_planet }
 	}
 
 	allow = {
@@ -725,11 +725,11 @@ tt_decision_creator_of_worlds_repair_planet = {
 	}
 
 	on_queued = {
-		set_carrier_flag = tt_repairing_planet
+		set_planet_flag = tt_repairing_planet
 	}
 
 	on_unqueued = {
-		remove_carrier_flag = tt_repairing_planet
+		remove_planet_flag = tt_repairing_planet
 	}
 
 	effect = {

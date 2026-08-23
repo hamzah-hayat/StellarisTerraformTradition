@@ -1,3 +1,8 @@
+[h1]1.2.4[/h1]
+This version was built and tested with Stellaris Cygnus 4.5.0 (4f3c)
+
+No changes, just a version update (nothing needed between v4.3.7 -> v4.5.0 Stellaris)
+
 [h1]1.2.3[/h1]
 This version is built for Stellaris Cetus v4.3.7 (4f3c)
 
